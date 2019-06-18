@@ -102,6 +102,7 @@ hr { background-color: #595959!important; padding-top: 0.5px!important; }
 .side del { color: #222222; }
 .side a { color: #004880; }
 .thing a { color: #004880; }
+.livePreview a { color: #004880; }
 .titlebox .tagline { color: #222222; }
 
 .sidecontentbox .content { border: 1px solid #222222; border-radius: 10px; }
