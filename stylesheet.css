@@ -453,6 +453,7 @@ html select.other-sub.tb-action-button.inline-button:active, html div.tb-popup-f
 .history-table-wrapper .table a { color: #222244; font-weight: bold; }
 .history-table-wrapper .table { border: solid 1px #222222; }
 .history-table-wrapper tbody tr th.url-td { border-left: none; }
+.history-table-wrapper tbody tr td.url-td { background-color: #808080!important; }
 html div.tb-popup-content div p.tb-history-disclaimer { background-color: #999999!important; border: solid 1px #222222!important; border-radius: 5px!important; }
 
 .menuarea.modtools { background-color: #999999!important; border: solid 1px #222222!important; border-radius: 8px; }
