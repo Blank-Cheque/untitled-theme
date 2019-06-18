@@ -233,11 +233,11 @@ body.comments-page > .content > .sitetable.linklisting > .thing.res-selected { b
 
 
 .commentarea .menuarea, .commentarea .menuarea * { color: #222222!important; }
-.commentarea .menuarea .drop-choices, .drop-choices.lightdrop, .drop-choices.srdrop { background-color: #808080; border-style: solid; border-color: #222222; border-width: 0px 1px 1px 1px; border: solid 1px #222; }
-html body .drop-choices.lightdrop form:first-of-type > a:first-of-type { border-top: none!important; }
+.commentarea .menuarea .drop-choices, .drop-choices.lightdrop, .drop-choices.srdrop, .tb-drop-choices { background-color: #808080; border-style: solid; border-color: #222222; border-width: 0px 1px 1px 1px; border: solid 1px #222; }
+html body .drop-choices.lightdrop form:first-of-type > a:first-of-type, html body .drop-choices.lightdrop > a:first-child, html body .tb-drop-choices > a:first-child { border-top: none!important; }
 html body .drop-choices.lightdrop > form > a > a { border-top: none!important; }
-.commentarea .menuarea .drop-choices a, .drop-choices.lightdrop a, .drop-choices.srdrop a { border-top: solid 1px #222222; color: #222222; background-color: #808080; }
-.commentarea .menuarea .drop-choices a:hover, .drop-choices.lightdrop a:hover, .drop-choices.srdrop a:hover { background-color: #595959; }
+.commentarea .menuarea .drop-choices a, .drop-choices.lightdrop a, .drop-choices.srdrop a, .tb-drop-choices a { border-top: solid 1px #222222; color: #222222; background-color: #808080; }
+.commentarea .menuarea .drop-choices a:hover, .drop-choices.lightdrop a:hover, .drop-choices.srdrop a:hover, .tb-drop-choices a.choice:hover { background-color: #595959; }
 #srList tr { background-color: #808080; color: #222222; }
 #srList tr:hover { background-color: #595959; }
 
@@ -420,7 +420,7 @@ html body .tb-window-tabs a.active, html body .tb-window-tabs a:hover { backgrou
 html body .tb-window-tabs a[data-module="gensettings"].active ~ a.about, html body .tb-window-tabs a[data-module="usernotes"].active ~ a.about, html body .tb-window-tabs a[data-module="rreasons"].active ~ a.about, html body .tb-window-tabs a[data-module="profile"].active ~ a.about, html body .tb-window-tabs a[data-module="pnotes"].active ~ a.about, html body .tb-window-tabs a[data-module="notifier"].active ~ a.about, html body .tb-window-tabs a[data-module="newmodmail"].active ~ a.about, html body .tb-window-tabs a[data-module="modbar"].active ~ a.about, html body .tb-window-tabs a[data-module="modbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="hbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="dtagger"].active ~ a.about, html body .tb-window-tabs a[data-module="devtools"].active ~ a.about, html body .tb-window-tabs a[data-module="comments"].active ~ a.about, html body .tb-window-tabs a[data-module="commentnuke"].active ~ a.about, html body .tb-window-tabs a[data-module="bbuttons"].active ~ a.about, html body .tb-window-tabs a[data-module="banlist"].active ~ a.about, html body .tb-window-tabs a[data-module="toolbox"].active ~ a.about, html body .tb-window-tabs a[data-module="trouble"].active ~ a.about { border-bottom: none!important; }
 html body .tb-window-tabs a[data-module="edit_toolbox_config"].active ~ a.ban_macro, html body .tb-window-tabs a[data-module="edit_user_notes"].active ~ a.ban_macro, html body .tb-window-tabs a[data-module="edit_automoderator_config"].active ~ a.ban_macro { border-bottom: 1px solid #222!important; }
 
-.dropdown.lightdrop .selected { color: #222222; }
+.dropdown.lightdrop .selected, .tb-dropdown.lightdrop .selected { color: #222222; }
 
 .multi-selector { background-color: #999999; box-shadow: 0 0; border-radius: 8px; border: solid 1px #222222; }
 .multi-selector::before, .multi-selector::after { display: none; }
@@ -652,7 +652,7 @@ body:not(.mod-toolbox) .stylesheet-customize-container textarea#stylesheet_conte
 
 body .tb-action-table { border: 1px solid #222!important; border-radius: 80px!important; }
 body .tb-action-table tbody th { background-color: #808080!important; }
-body .tb-action-table tr td { background-color: #999999!important; }
+body .tb-action-table tr td { background-color: #999999!important; color: #222!important; }
 
 .tb-window-wrapper .tb-module-disabled { background-color: #999!important; color: #222!important; border-bottom: 1px solid #222!important; }
 .tb-window-wrapper .tb-oldReddit-module { color: #222!important; }
@@ -712,3 +712,4 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 
 .tb-nuke-feedback { border-color: #222!important; }
 .tb-nuke-details input.tb-ignore-distinguished-checkbox { margin-right: 2px!important; }
+
