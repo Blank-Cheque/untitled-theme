@@ -652,7 +652,7 @@ body .RES-dropdown-button { background-color: #595959!important; }
 
 body:not(.mod-toolbox) .stylesheet-customize-container textarea#stylesheet_contents { max-width: 96%!important; }
 
-body .tb-action-table { border: 1px solid #222!important; border-radius: 80px!important; }
+body .tb-action-table { border: 1px solid #222!important; border-radius: 80px!important; margin-right: 3px!important; }
 body .tb-action-table tbody th { background-color: #808080!important; }
 body .tb-action-table tr td { background-color: #999999!important; color: #222!important; }
 
