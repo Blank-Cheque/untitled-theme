@@ -206,6 +206,7 @@ html body.tb-mmp-thread .message-parent.threaded .child .child .child .child .ch
 
 html .thing.message.spam, html body.messages-page .thing.message > .child > .sitetable > .thing.message.spam, html .child > .sitetable > .thing.message.spam > .entry { background-color: #f0a8a8!important; }
 
+body .sitetable.nestedlisting > .thing.spam { border-color: #222!important; }
 body .thing.approved, .thing.spam.approved, .thing.res-selected.approved, .thing.res-selected.spam.approved { background-color: #b9dab9!important; }
 html body .child > .sitetable.listing > .thing.spam, .thing.res-selected.spam, html .thing .entry.res-selected.tb-comment-spam { background-color: #f0a8a8!important; border-color: #222222!important; }
 body .thing.spammed, .thing.res-selected.spammed { background-color: #f86454!important; }
