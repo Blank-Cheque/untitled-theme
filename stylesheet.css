@@ -729,3 +729,5 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 .tb-nuke-details input.tb-ignore-distinguished-checkbox { margin-right: 2px!important; }
 
 .score-hidden { color: #222; }
+
+.quarantine-stamp { color: #ffd635; }
