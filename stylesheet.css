@@ -304,6 +304,10 @@ body #tb-trouble-buttons .tb-action-button { margin-bottom: 3px!important; }
 textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"] { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
 .RESCharCounter { color: #222222!important; }
 .submit textarea { border: solid 1px #222222!important; border-color: #222222!important; }
+input[type="number"].ban-duration.tb-input { width: 90px!important; }
+
+.tb-popup input.flair-text.tb-input { margin-left: 4px!important; }
+.tb-popup input.flair-class.tb-input { margin-left: 2px!important; }
 
 .bottom-area .error { color: #990000; }
 .bottom-area a.reddiquette, a.option.active { color: #004880; }
