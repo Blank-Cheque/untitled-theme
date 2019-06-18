@@ -329,7 +329,7 @@ span.karma { color: #222222!important; }
 #BigEditor .BEFoot button { background-color: #808080; border: solid 1px #222222; border-radius: 2px; }
 
 .RESDialogSmall.livePreview { background-color: #999999; border-color: #222222; border-radius: 3px; margin-top: 2px; }
-.RESDialogSmall.livePreview ~ h3 { background-color: #808080; border-bottom: 1px solid #222222; }
+.RESDialogSmall.livePreview > h3 { background-color: #808080; border-bottom: 1px solid #222222; }
 
 table * { border-color: #222222!important; }
 
