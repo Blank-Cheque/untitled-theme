@@ -223,7 +223,7 @@ body .thing.new.message > .entry { background-color: #808080!important; border: 
 body .thing.deleted.comment > .entry > .usertext > .usertext-body { background-color: inherit!important; }
 body .thing.deleted.comment > .entry > .tagline > em { color: #222222; }
 
-body.comments-page > .content > .sitetable.linklisting > .thing.res-selected { background-color: #b3b3b3!important; }
+body.comments-page > .content > .sitetable.linklisting > .thing.res-selected:not(.spam) { background-color: #b3b3b3!important; }
 
 .usertext.border .usertext-body { background-color: inherit; }
 
