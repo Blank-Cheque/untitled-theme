@@ -119,7 +119,7 @@ blockquote { border-left: 2px solid #595959!important; background-color: inherit
 .thing.res-selected { background-color: #999999!important; }
 body .thing.self .usertext-body .md, body .thing.self.res-selected .usertext-body .md, body .description .usertext .usertext-body .md { background-color: #808080!important; border-color: #222222!important; }
 body .entry.res-selected, .thing .entry.res-selected .usertext-body, .thing .entry.res-selected .md-container { background-color: inherit!important; }
-#siteTable .thing.comment, .sitetable .tb-thing.tb-comment, .sitetable .thing.message.message-parent { border-radius: 10px; }
+#siteTable .thing.comment, .tb-sitetable .tb-thing.tb-comment, .sitetable .thing.message.message-parent, .sitetable .thing.link, .tb-sitetable .tb-thing.tb-submission { border-radius: 10px; }
 #siteTable .entry { padding-top: 5px; padding-bottom: 5px; padding-left: 5px; }
 .domain * { color: #222222!important; }
 .domain { color: #222222; }
