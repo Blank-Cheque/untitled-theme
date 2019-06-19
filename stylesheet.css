@@ -252,7 +252,7 @@ html #header-bottom-left .tabmenu li.selected a { color: #222222; border-top: so
 #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a { font-weight: bold; color: #orangered!important; }
 #RESShortcutsEditContainer, #RESShortcutsEditContainer *, body.compose-page #RESShortcutsEditContainer, body.compose-page #RESShortcutsEditContainer * { background-color: #cccccc; border-radius: 0px 0px 0px 7px; }
 
-.spacer form input { background-color: #595959; border-radius: 10px; color: #222222; }
+.spacer form input, .searchpane form input { background-color: #595959; border-radius: 10px; color: #222222; }
 #searchexpando { background-color: #999999; border-color: #595959; border-width: 2px; border-radius: 8px; }
 #searchexpando label select { background-color: #808080; border-color: #595959; margin-bottom: 5px; margin-left: 5px; }
 #searchexpando a { color: #004880; }
@@ -729,3 +729,6 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 .score-hidden { color: #222; }
 
 .quarantine-stamp { color: #ffd635; }
+
+.searchpane { background-color: #999; border-color: #222; border-radius: 5px; }
+.searchpane h4 { color: #222!important; }
