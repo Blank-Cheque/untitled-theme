@@ -384,7 +384,7 @@ input::placeholder, textarea::placeholder { color: #404040!important; }
 
 #RESStyleSheetTipPane-header { border-bottom: none; }
 #RESStyleSheetTipPane { border-color: #222222; background-color: #808080; }
-.sheets #theme_selector, .setting-item #Syntax_syntax_theme { background-color: #808080; border-color: #595959; margin-bottom: 5px; margin-left: 5px; }
+#theme_selector { background-color: #808080; border-color: #595959; margin-bottom: 5px; margin-left: 5px; }
 div.tb-syntax-keyboard { background-color: #595959!important; opacity: 0.8; font-weight: bold; }
 div.tb-syntax-keyboard li { font-weight: bold; font-size: 12px; }
 
