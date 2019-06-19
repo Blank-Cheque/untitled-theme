@@ -30,7 +30,6 @@
 .submit { margin-bottom: 15px; }
 .premium-banner { margin-top: 15px; }
 
-
 .fancy-toggle-button.subscribe-button .option { color: #FFF!important; }
 
 div.titlebox span.fancy-toggle-button.subscribe-button .option.add { position: relative; visibility: hidden; border-bottom: solid 2px #020; background-color: #488448; }
@@ -436,7 +435,7 @@ html body .hover-bubble.multi-selector label:hover { background-color: #808080!i
 
 html .tb-popup { border: solid 1px #222222!important; border-radius: 5px!important; }
 .tb-popup .tb-popup-content { background-color: #999999; }
-.tb-popup .tb-popup-header, .tb-popup .tb-popup-footer { background-color: #808080; }
+.tb-popup .tb-popup-header, .tb-popup .tb-popup-footer { background-color: #808080!important; }
 .tb-popup .tb-popup-header { border-bottom: solid 1px #222; }
 .tb-popup .tb-popup-footer { border-top: solid 1px #222; }
 .tb-popup.mod-popup .tb-popup-header { border-bottom: none!important; }
@@ -681,7 +680,7 @@ body[toolbox-warning]::before { margin-bottom: 20px; }
 
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs { background-color: #999; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a { width: 400px; border-bottom: 1px solid #222; }
-body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar a, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator), body .tb-profile-overlay .tb-window-wrapper .tb-link-author, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover { color: #004880!important; }
+body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar a, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter), body .tb-profile-overlay .tb-window-wrapper .tb-link-author, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover { color: #004880!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-detail-ul a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-modsubs a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):hover { color: #004880!important; text-decoration: underline!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-parent a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-link-author:hover, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover:hover { color: #004880!important; }
 body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-link-author[href="/user/[deleted]"], html body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-trophy-info span { color: #222!important; }
