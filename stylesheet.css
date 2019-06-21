@@ -732,3 +732,8 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 
 .searchpane { background-color: #999; border-color: #222; border-radius: 5px; }
 .searchpane h4 { color: #222!important; }
+
+.thing.collapsed > .entry > .tagline > .expand { color: #222; }
+.thing.collapsed > .entry > .tagline > .author { color: #004880; font-style: normal; }
+.thing.collapsed > .entry > .tagline > .collapsed-reason { color: #222; }
+.thing.collapsed > .entry > .tagline > .numchildren { color: #222; }
