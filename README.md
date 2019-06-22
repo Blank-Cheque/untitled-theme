@@ -7,8 +7,7 @@ View at https://old.reddit.com/r/bc_css
 
 # How to install
 ## As a Gold theme
-Note that you do need Gold for this to work. If you don't have Gold you can't use it. 
-0. Switch to Old Reddit, if you haven't, by going to https://new.reddit.com/settings/account and turning on "Opt out of the redesign"
+Note that you do need Gold for this to work. If you don't have Gold you can't use it. Also note that you need to be on Old Reddit for this. If you're not on Old Reddit, turn it on by going to https://new.reddit.com/settings/account and checking "Opt out of the redesign".
 1. Scroll to the gold box at the bottom. Check "use reddit theme" and "use theme from /r/". Enter "bc_css" in the input box that follows. 
 2. Click "save options"
 3. All done! Enjoy. 
