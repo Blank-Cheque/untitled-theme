@@ -452,7 +452,7 @@ html select.other-sub.tb-action-button.inline-button:active, html div.tb-popup-f
 
 .tb-popup .tb-popup-tabs a, .tb-popup-tabs a:hover, .tb-popup-tabs a.active { box-shadow: 0 0!important; }
 
-.utagger-popup .utagger-type span:hover, .utagger-popup .utagger-type span:active, .utagger-popup .utagger-type input:checked ~ span { background-color: #808080; }
+.utagger-popup .utagger-type span:hover, .utagger-popup .utagger-type span:active, .utagger-popup .utagger-type input:checked ~ span { background-color: #808080!important; }
 
 .history-table-wrapper tbody tr td { background-color: #808080; border-left: none; border-right: dotted 1px #222222; }
 .history-table-wrapper thead tr th { background-color: #595959; border-color: #222222; }
