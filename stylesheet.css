@@ -755,3 +755,6 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 .modal-dialog .modal-content .modal-body fieldset .crosspost-button:active { border-width: 1px!important; transform: translateY(1px); }
 
 .contest-mode.infobar { background-color: #999999; border-color: #222222; color: #222222; }
+
+.happening-now-wrap .happening-now { background-color: #808080; border: 1px solid #222; border-radius: 4px; }
+.happening-now-wrap .happening-now p { color: #222; }
