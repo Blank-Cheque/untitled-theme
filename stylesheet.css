@@ -414,7 +414,7 @@ html .tb-window-wrapper, .tb-window-content { background-color: #999999!importan
 html .tb-window-header { padding-bottom: 1px; }
 div.buttons a.close, div.buttons a.tb-help-main { background-color: #808080!important; color: #222222!important; }
 
-body .tb-window-tabs a { background-color: #808080!important; }
+body .tb-window-tabs a { background-color: #808080!important; border-right: 1px solid #222; }
 html body .tb-window-tabs a.active, html body .tb-window-tabs a:hover { background-color: #595959!important; }
 .tb-window-tabs a { border-color: #222222!important; }
 html body .tb-window-tabs a[data-module="gensettings"].active ~ a.about, html body .tb-window-tabs a[data-module="usernotes"].active ~ a.about, html body .tb-window-tabs a[data-module="rreasons"].active ~ a.about, html body .tb-window-tabs a[data-module="profile"].active ~ a.about, html body .tb-window-tabs a[data-module="pnotes"].active ~ a.about, html body .tb-window-tabs a[data-module="notifier"].active ~ a.about, html body .tb-window-tabs a[data-module="newmodmail"].active ~ a.about, html body .tb-window-tabs a[data-module="modbar"].active ~ a.about, html body .tb-window-tabs a[data-module="modbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="hbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="dtagger"].active ~ a.about, html body .tb-window-tabs a[data-module="devtools"].active ~ a.about, html body .tb-window-tabs a[data-module="comments"].active ~ a.about, html body .tb-window-tabs a[data-module="commentnuke"].active ~ a.about, html body .tb-window-tabs a[data-module="bbuttons"].active ~ a.about, html body .tb-window-tabs a[data-module="banlist"].active ~ a.about, html body .tb-window-tabs a[data-module="toolbox"].active ~ a.about, html body .tb-window-tabs a[data-module="trouble"].active ~ a.about { border-bottom: none!important; }
@@ -753,3 +753,5 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 .modal-dialog .modal-content .modal-body .crosspost-fieldset .crosspost-warning a { color: #004880!important; }
 .modal-dialog .modal-content .modal-body fieldset .crosspost-button { background-color: #228; border: 1px solid #222; border-width: 1px 1px 2px 1px; }
 .modal-dialog .modal-content .modal-body fieldset .crosspost-button:active { border-width: 1px!important; transform: translateY(1px); }
+
+.contest-mode.infobar { background-color: #999999; border-color: #222222; color: #222222; }
