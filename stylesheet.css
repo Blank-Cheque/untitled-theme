@@ -758,3 +758,5 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 
 .happening-now-wrap .happening-now { background-color: #808080; border: 1px solid #222; border-radius: 4px; }
 .happening-now-wrap .happening-now p { color: #222; }
+
+.commentarea .panestack-title .title-button.gold, .commentarea .panestack-title .title-button { background: none; border: none; color: #004880; }
