@@ -766,3 +766,8 @@ body.multi-page .titlebox.multi-details button, body.multi-page .titlebox.multi-
 body.multi-page .titlebox.multi-details #sr-drop-down { background-color: #595959; border: 1px solid #222; border-radius: 3px; }
 body.multi-page .titlebox.multi-details #sr-drop-down li { border-top: 1px solid #222; padding-left: 5px; }
 body.multi-page .titlebox.multi-details #sr-drop-down li:first-child { border-top: none!important; }
+
+body.multi-page .titlebox.multi-details .recs h1 { color: #222; }
+body.multi-page .titlebox.multi-details .recs .rec-item { background-color: #595959; border-radius: 10px; border: none; padding-right: 2px: }
+body.multi-page .titlebox.multi-details .recs .rec-item .add-rec { background: none!important; }
+body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
