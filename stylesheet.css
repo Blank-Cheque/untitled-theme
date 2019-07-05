@@ -678,7 +678,7 @@ html[res-warning]::before { opacity: 1; font-size: 14px; padding: 5px; font-fami
 body[toolbox-warning]::before { margin-bottom: 20px; }
 
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs { background-color: #999; }
-body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a { width: 441px; border-bottom: 1px solid #222; }
+body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a { width: 450px; border-bottom: 1px solid #222; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a:last-of-type { border-right: none!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar a, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter), body .tb-profile-overlay .tb-window-wrapper .tb-link-author, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover { color: #004880!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-detail-ul a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-modsubs a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):hover { color: #004880!important; text-decoration: underline!important; }
