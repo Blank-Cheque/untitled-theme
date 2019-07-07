@@ -776,3 +776,5 @@ body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
 .report-modal .modal-content .report-reason-item .report-reason-display, .report-modal .modal-content .report-form-bottom-panel .report-form-content-policy p { color: #222; }
 .report-modal .modal-content .report-form-bottom-panel .report-form-content-policy p a { color: #004880; }
 .report-form-action-desc * { color: #222!important; }
+
+.md del { color: #222; }
