@@ -735,7 +735,8 @@ body.tb-show-actions .content .thing .action-reason { display: none!important; }
 .searchpane h4 { color: #222!important; }
 
 .thing.collapsed > .entry > .tagline > .expand { color: #222; }
-.thing.collapsed > .entry > .tagline > .author { color: #004880; font-style: normal; }
+.thing.collapsed > .entry > .tagline > a.author { color: #004880; font-style: normal; }
+.thing.collapsed > .entry > .tagline > span.author { color: #595959; font-style: normal; }
 .thing.collapsed > .entry > .tagline > .collapsed-reason { color: #222; }
 .thing.collapsed > .entry > .tagline > .numchildren { color: #222; }
 
@@ -778,3 +779,5 @@ body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
 .report-form-action-desc * { color: #222!important; }
 
 .md del { color: #222; }
+
+span.author { color: #595959; }
