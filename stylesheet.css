@@ -781,3 +781,7 @@ body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
 .md del { color: #222; }
 
 span.author { color: #595959; }
+
+.titlebox .word { display: none; }
+.titlebox .number:after { content: " subscribers"; }
+.titlebox .users-online span.number:after { content: " users here now"; }
