@@ -69,12 +69,12 @@ ul.content { border-radius: 10px; }
 
 .titlebox { font-size: 12px; }
 
-p code:not(.CodeMirror-line), li code:not(.CodeMirror-line) { background-color: #282A36!important; color: #DADADA; border-radius: 5px; border-color: #FFF; }
+p code:not(.CodeMirror-line), li code:not(.CodeMirror-line), tr code:not(.CodeMirror-line) { background-color: #282A36!important; color: #DADADA; border-radius: 5px; border-color: #FFF; }
 pre:not(.CodeMirror-line) { background-color: #282A36!important; color: #DADADA; border-radius: 10px; }
 pre:not(.CodeMirror-line) code { background-color: #282A36!important; color: #DADADA; border-radius: 10px; }
 pre.img-url { color: #DADADA!important; border: solid 1px #FFF; margin-bottom: 8px; }
 pre.img-url::selection { background-color: #999; }
-p code:not(.CodeMirror-line)::selection { background-color: #999; }
+p code:not(.CodeMirror-line)::selection, li code:not(.CodeMirror-line)::selection, tr code:not(.CodeMirror-line)::selection { background-color: #999; }
 pre code:not(.CodeMirror-line)::selection { background-color: #999; }
 
 .md-spoiler-text:not(.revealed):hover { background-color: #4d4d4d; animation: spoilerexpand 0.5s linear 1 forwards; -moz-animation: spoilerexpand 0.25s linear 1 forwards; }
