@@ -215,6 +215,7 @@ body .thing.spam.message > .child { background-color: #f0a8a8!important; }
 body .thing.comment:not(.spam) > .child { background-color: inherit!important; }
 body .thing.message.spam > .child > .sitetable > .thing.message:not(.spam) { background-color: #b3b3b3!important; }
 body .thing.message:not(.spam) > .child { background-color: inherit!important; }
+.res-commentBoxes .comment { border-color: #222!important; }
 
 body .thing.new.message { background-color: #808080!important; }
 body .thing.new.message > .entry { background-color: #808080!important; border: none; }
@@ -783,5 +784,7 @@ body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
 span.author { color: #595959; }
 
 .titlebox .word { display: none; }
-.titlebox .number:after { content: " subscribers"; }
+ .titlebox .number:after { content: " subscribers"; }
 .titlebox .users-online span.number:after { content: " users here now"; }
+
+.morecomments .gray { color: #444!important; }
