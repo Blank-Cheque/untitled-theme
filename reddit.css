@@ -829,6 +829,7 @@ tbody tr:nth-of-type(4) .legendColorBox > div > div { border: 5px solid #4885ed!
 tbody tr td.legendLabel { background-color: #999; color: #222; padding-right: 4px; padding-top: 1px; padding-bottom: 1px; }
 tbody tr:first-of-type td.legendLabel { border-radius: 0px 5px 0px 0px; }
 tbody tr:last-of-type td.legendLabel { border-radius: 0px 0px 5px 0px; }
+.legend > div { background: none!important; }
 
 .traffic-table { border: 1px solid #222; }
 .traffic-table tbody tr:nth-child(even) { background-color: #999; }
