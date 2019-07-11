@@ -836,3 +836,7 @@ tbody tr:last-of-type td.legendLabel { border-radius: 0px 0px 5px 0px; }
 
 .styled-reason hr { border-color: #222; height: 0px; border-width: 0.25px; }
 .mod-toolbox .reason-popup .reason-num { color: #444; }
+
+.user-distinction { color: #222; }
+.user-distinction span { font-size: 11px; }
+.user-distinction span:before, .user-distinction span:after { content: ' '; }
