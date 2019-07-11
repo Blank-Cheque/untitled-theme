@@ -30,7 +30,7 @@
 .submit { margin-bottom: 15px; }
 .premium-banner { margin-top: 15px; }
 
-.fancy-toggle-button.subscribe-button .option { color: #FFF!important; }
+.fancy-toggle-button.subscribe-button .option { color: #FFFFFF!important; }
 
 div.titlebox span.fancy-toggle-button.subscribe-button .option.add { position: relative; visibility: hidden; border-bottom: solid 2px #020; background-color: #488448; }
 div.titlebox span.fancy-toggle-button.subscribe-button .option.add:before { background-color: inherit; content: "subscribe"; visibility: visible; font-size: 16px; color: #FFFFFF; border-bottom: inherit; border-left: solid 1px #020; border-top: solid 1px #020; border-right: solid 1px #020; padding-left: 27px; padding-right: 28px; border-radius: 14px; padding-top: 2px; padding-bottom: 2px; }
