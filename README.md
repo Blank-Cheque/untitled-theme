@@ -22,6 +22,6 @@ Note that you do need Gold for this to work. If you don't have Gold you can't us
 ## On your subreddit
 Note that this theme does NOT contain any images at this time, so you do not need to upload any images for it to work.
 1. Go to http://www.reddit.com/r/subreddit/about/stylesheet, where "subreddit" is replaced with the name of your sub. 
-2. Copy all the text from this page: https://raw.githubusercontent.com/Blank-Cheque/untitled-theme/master/stylesheet.css and paste it into the editing box at the stylesheet page
+2. Copy all the text from this page: https://raw.githubusercontent.com/Blank-Cheque/untitled-theme/master/reddit.css and paste it into the editing box at the stylesheet page
 3. Click "save"
 4. All done! Enjoy. 
