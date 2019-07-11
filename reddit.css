@@ -442,7 +442,7 @@ html .tb-popup { border: solid 1px #222222!important; border-radius: 5px!importa
 
 html .tb-popup-tabs { background-color: #808080!important; border-color: #222!important; }
 .tb-popup-tabs a { border-color: #222!important; }
-.tb-popup-tabs a:not(.active) { background-color: #808080; color: #222!important; }
+.tb-popup-tabs a:not(.active) { background-color: #808080!important; color: #222!important; }
 html .tb-popup-tabs a.active, html .tb-popup-tabs a:not(.active):hover { background-color: #595959!important; color: #222!important; border-color: #222!important; }
 
 html select.other-sub.tb-action-button.inline-button, html div.tb-popup-footer select.mod-action.tb-action-button, html .selector.tb-action-button, .roundfield-content select, .save-selector select, html select.tb-top-macro-select.tb-action-button, html .tb-prune-length, #REScommentNavBox select#commentNavBy, #quickMessage select#quickMessageDialogFrom, .tb-usertext-buttons .tb-macro-select.tb-action-button, .crosspost-fieldset select#sr, .styled-reason.reason-content #contextSelectbox { background-color: #808080!important; border-color: #595959!important; color: #222222!important; }
