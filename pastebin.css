@@ -57,3 +57,5 @@ html { background-color: #999; }
 .jq-dropdown-menu li:hover { background-color: #444!important; }
 .jq-dropdown-menu li.dd_lo { border-radius: 0px 0px 5px 5px; }
 #header_top { border-right: 1px solid #222; }
+
+img.header_icon { border-color: #222; }
