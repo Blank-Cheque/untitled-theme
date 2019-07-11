@@ -792,3 +792,9 @@ span.author { color: #595959; }
 .titlebox .users-online span.number:after { content: " users here now"; }
 
 .morecomments .gray { color: #444!important; }
+
+.embed-modal .modal-title, .embed-modal a { color: #004880; } { color: #004880; }
+.embed-modal .modal-content { background: none; border: none; }
+.embed-modal .modal-body { border-radius: 8px 8px 0px 0px; border: 1px solid #222; }
+.embed-modal .modal-footer { border-radius: 0px 0px 8px 8px; border: 1px solid #222; border-width: 0px 1px 1px 1px; background-color: #999; }
+.embed-modal #embed-preview iframe { border: 1px solid #222; }
