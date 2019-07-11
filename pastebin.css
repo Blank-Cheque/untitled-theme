@@ -17,6 +17,7 @@ textarea.paste_code::selection, textarea.paste_textarea::selection { background-
 .code_box::selection, span.mark::selection { background-color: #999; }
 span.mark a { color: #4088C0; }
 span.mark a:hover { color: #4088c0; text-decoration: underline; }
+#selectable *::selection { background-color: #999; }
 
 #main_frame, #monster_frame { background-color: #b3b3b3; }
 #monster_frame { border: none; }
@@ -106,3 +107,10 @@ fieldset.login_field legend { color: #222; }
 .feature_2 { border-color: #222; }
 .feature_3 { border-color: #222; }
 .pro_frame_big { border-color: #222; }
+
+.upload_frame { background-color: #999; border-color: #222; }
+#float-box-1, #float-box-2, #float-box-3 { background: #808080; border: 1px solid #222; }
+#float-box-1 a, #float-box-2 a, #float-box-3 a { text-decoration: none; }
+#float-box-1 a:hover, #float-box-2 a:hover, #float-box-3 a:hover { text-decoration: underline; }
+
+#notice { background-color: #999; border-color: #222; }
