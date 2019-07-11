@@ -833,3 +833,6 @@ tbody tr:last-of-type td.legendLabel { border-radius: 0px 0px 5px 0px; }
 
 .traffic-table { border: 1px solid #222; }
 .traffic-table tbody tr:nth-child(even) { background-color: #999; }
+
+.styled-reason hr { border-color: #222; height: 0px; border-width: 0.25px; }
+.mod-toolbox .reason-popup .reason-num { color: #444; }
