@@ -7,6 +7,7 @@ View at https://old.reddit.com/r/bc_css
 
 # How to install
 ## With Stylus
+Note that this is the **recommended method of using this theme**, as Stylus allows styling of pages protected by reddit. 
 1. Install Stylus, if you haven't. You can find it [here, for Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [here, for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 2. Go to the Stylus management page and add reddit.css as the CSS for the domain "reddit.com".
 3. Click 'Save' on the left hand side.
