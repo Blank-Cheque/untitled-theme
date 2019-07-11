@@ -703,13 +703,17 @@ body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-domain a
 .mod-toolbox .tb-window-wrapper .tb-thing > div > .tb-tagline > .tb-userattrs > a.tb-moderator:hover { color: #228822!important; text-decoration: underline; }
 .mod-toolbox .tb-thing .tb-tagline a.tb-comment-author.tb-moderator, .mod-toolbox-rd .tb-thing .tb-tagline > a.tb-submission-author.tb-moderator { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #228822!important; }
 .mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-moderator:hover, .mod-toolbox-rd .tb-thing .tb-tagline > a.tb-submission-author.tb-moderator:hover { background-color: #134913!important; }
-.mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-submitter { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #0055DF!important; }
+.mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-submitter, .thing.collapsed > .entry > .tagline > .author.submitter { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #0055DF!important; }
 .mod-toolbox .tb-thing .tb-submission-score.neutral, .mod-toolbox-rd .tb-thing .tb-comment-score.neutral { color: #222!important; }
 .mod-toolbox .tb-load-more { color: #222!important; background-color: #808080!important; border: 1px solid #222!important; }
 .mod-toolbox .tb-load-more:hover { background-color: #595959!important; }
 .mod-toolbox ul.tb-user-modsubs-expand-ul li, .mod-toolbox ul.tb-user-modsubs-ul li { border-color: #222!important; }
 .mod-toolbox .tb-general-button.tb-sidebar-loadmod { margin-top: 2px!important; }
 .mod-toolbox .tb-profile-sidebar img.tb-user-thumbnail { border: 2px solid #222!important; padding: 0px!important; border-radius: 8px!important; }
+
+.thing.collapsed > .entry > .tagline > .author.submitter:hover { background-color: #4E7EAB!important; }
+.thing > .entry > .tagline > .userattrs { color: #222; }
+.thing > .entry > .tagline > .userattrs > .submitter { color: #0055df!important; }
 
 .mod-toolbox #tb-loading-stuff, .mod-toolbox-rd #tb-loading-stuff-non-persistent { box-shadow: none!important; border: none!important; }
 
