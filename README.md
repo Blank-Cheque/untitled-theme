@@ -6,6 +6,12 @@ View at https://old.reddit.com/r/bc_css
 * Masstagger
 
 # How to install
+## With Stylus
+1. Install Stylus, if you haven't. You can find it [here, for Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [here, for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
+2. Go to the Stylus management page and add reddit.css as the CSS for the domain "reddit.com".
+3. Click 'Save' on the left hand side.
+4. All done! Enjoy. 
+
 ## As a Gold theme
 Note that you do need Gold for this to work. If you don't have Gold you can't use it. Also note that you need to be on Old Reddit for this. If you're not on Old Reddit, turn it on by going to https://new.reddit.com/settings/account and checking "Opt out of the redesign".
 1. Scroll to the gold box at the bottom. Check "use reddit theme" and "use theme from /r/". Enter "bc_css" in the input box that follows. 
