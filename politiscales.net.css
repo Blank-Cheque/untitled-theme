@@ -1,0 +1,27 @@
+p { color: #222; }
+a { color: #004880; text-decoration: none; }
+a:hover { color: #004880; text-decoration: underline; }
+
+.button { background-color: #808080!important; color: #222222!important; border-style: solid!important; border-color: #222222!important; border-top-width: 1px!important; border-left-width: 1px!important; border-right-width: 1px!important; border-bottom-width: 2px!important; border-radius: 4px; opacity: 1!important; text-decoration: none; }
+.button:active { border-bottom: solid 1px #222222!important; transform: translateY(1px)!important; border-color: #222222!important; text-decoration: none; }
+.button:hover { background-color: #808080!important; opacity: 1!important; text-decoration: none; }
+
+body { background-color: #b3b3b3; }
+#mainFrame { background-color: #999; box-shadow: none; border: 1px solid #222; }
+#footer { border-color: #595959; }
+
+#header { background-color: #595959; box-shadow: none; border-bottom: 1px solid #222; }
+#header * { color: #b3b3b3; }
+#header a { color: #b3b3b3; }
+
+.buttonQuestion[style="background-color: #b71c1c;"] { background-color: #990000!important; }
+.buttonQuestion[style="background-color: #f44336;"] { background-color: #FF0000!important; }
+.buttonQuestion[style="background-color: #bbbbbb;"] { background-color: #808080!important; }
+.buttonQuestion[style="background-color: #4caf50;"] { background-color: #60B060!important; }
+.buttonQuestion[style="background-color: #1b5e20;"] { background-color: #366336!important; }
+.buttonQuestion { border: 1px solid #222; border-radius: 15px; }
+
+#urlToCopy { background-color: #282A36!important; color: #DADADA; border-radius: 5px; border-color: #FFF; }
+#urlToCopy::selection { background-color: #999!important; }
+
+hr { border-color: #595959; }
