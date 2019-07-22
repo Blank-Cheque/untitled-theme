@@ -303,7 +303,7 @@ body #tb-trouble-buttons .tb-action-button { margin-bottom: 3px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table { line-height: 10px!important; margin-top: 2px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table:active { margin-bottom: 2px!important; }
 
-textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
+textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username, #srList input { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
 .RESCharCounter { color: #222222!important; }
 .submit textarea { border: solid 1px #222222!important; border-color: #222222!important; }
 input[type="number"].ban-duration.tb-input { width: 90px!important; }
@@ -719,6 +719,7 @@ body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-domain a
 .mod-toolbox #tb-loading-stuff, .mod-toolbox-rd #tb-loading-stuff-non-persistent { box-shadow: none!important; border: none!important; }
 
 body.tb-show-actions .content .thing .action-reason { display: none!important; }
+body:not(.tb-show-actions) .content .thing .action-reason { background-color: inherit; border: 1px solid #222; border-radius: 3px; margin-top: 3px; }
 
 .tb-sort-subs img { display: none!important; }
 
@@ -935,6 +936,10 @@ label[for="modtab-threshold"] { color: #222!important; }
 
 #RESNotifications * { border-color: #222; }
 
+.tb-popup { box-shadow: none!important; }
+
+.img-preview-container { border-color: #222!important; }
+
 .ThreadViewer__infobar { background-color: #808080; border-left: 1px solid #222; }
 .InfoBar { background-color: #808080; }
 .InfoBar__recentsTitle { color: #222; }
@@ -1031,3 +1036,21 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ThreadPreview__author.m-admin, .Message__author.m-admin { background-color: #FF0011; color: #FFF; padding: 1px 2px 1px 2px; border-radius: 3px; font-size: x-small; font-weight: bold; }
 .ThreadPreview__author.m-admin:hover, .Message__author.m-admin:hover { background-color: #B3000C; color: #FFF!important; text-decoration: none; }
 .ThreadPreview__author, .Message__author { color: #222!important; }
+.SidebarCommunities__community .SidebarCommunity__name:before { content: '/'; }
+.SidebarCommunities__allCommunities .SidebarCommunity__name { font-size: 0px; }
+.SidebarCommunities__allCommunities .SidebarCommunity__name:after { content: 'All Subreddits'; font-size: 14px; }
+.SidebarCommunities__sort .FancySelect__label { font-size: 0px; }
+.SidebarCommunities__sort .FancySelect__label:after { content: 'Subreddits by'; font-size: 13px; }
+.SidebarCommunities__sort .FancySelect__valueText { font-size: 0px; }
+.SidebarCommunities__sort input[value="subscribers"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'subscriber count'; font-size: 13px; }
+.SidebarCommunities__sort input[value="activity"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'activity'; font-size: 13px; }
+.SidebarCommunities__sort input[value="name"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'name'; font-size: 13px; }
+.ThreadTitle__community:before { content: '/r/'; }
+.Toaster { box-shadow: none!important; border: 1px solid #222; margin-top: 5px; border-radius: 8px; }
+.Toaster__message { color: #222; border-radius: 0px 7px 7px 0px; background-color: #595959}
+.Toaster__close:before { color: #222; }
+.Toaster__icon { border-radius: 7px 0px 0px 7px; background-color: #595959!important; }
+.Toaster__icon:before { color: #222; }
+.App__sidebarMenu { width: 94%; }
+.SidebarNav__count { margin-right: 3%; }
+.Sidebar__newMessage { margin-right: 5%; }
