@@ -1025,8 +1025,8 @@ label[for="modtab-threshold"] { color: #222!important; }
 .Radio__circle, .Radio__label { color: #595959; }
 .Checkbox__input:checked+.Checkbox__circle:before, .Checkbox__input:checked+.Checkbox__circle+.Checkbox__label { color: #222; }
 .Checkbox__input+.Checkbox__circle:before, .Checkbox__input+.Checkbox__circle+.Checkbox__label { color: #595959; }
-.ThreadTitle__communityIcon { width: 30px; height: 30px; border-color: #222; }
-.ThreadTitle__communityIcon:before { display: none;  }
+.ThreadTitle__communityIcon { width: 30px; height: 30px; border-color: #222; background-color: #808080; }
+.ThreadTitle__communityIcon:before { display: none; }
 .Thread__modAction { border-color: #222!important; }
 .ModAction__author { color: #282; }
 .ModAction__text { color: #222; }
