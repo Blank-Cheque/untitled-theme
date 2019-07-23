@@ -666,7 +666,7 @@ body #tb-context-menu #tb-context-menu-list li { background-color: #999!importan
 
 body .tb-save-warning { background-color: inherit!important; }
 
-body.mod-toolbox-rd #tb-notification-alert { background-color: #808080!important; border-color: #222!important; }
+body.mod-toolbox-rd #tb-notification-alert { background-color: #808080!important; border-color: #222!important; box-shadow: none; border-radius: 8px; }
 
 .res-show-link { background-color: #999; border: 1px solid #222; border-radius: 0px 0px 5px 5px; border-top: none; }
 .res-show-link a:not(.res-show-link-domain) { color: #004880; }
@@ -1025,8 +1025,8 @@ label[for="modtab-threshold"] { color: #222!important; }
 .Radio__circle, .Radio__label { color: #595959; }
 .Checkbox__input:checked+.Checkbox__circle:before, .Checkbox__input:checked+.Checkbox__circle+.Checkbox__label { color: #222; }
 .Checkbox__input+.Checkbox__circle:before, .Checkbox__input+.Checkbox__circle+.Checkbox__label { color: #595959; }
-.ThreadTitle__communityIcon { border-color: #222; width: 30px; height: 30px; background-color: #808080}
-.ThreadTitle__communityIcon:before { display: none; }
+.ThreadTitle__communityIcon { width: 30px; height: 30px; border-color: #222; }
+.ThreadTitle__communityIcon:before { display: none;  }
 .Thread__modAction { border-color: #222!important; }
 .ModAction__author { color: #282; }
 .ModAction__text { color: #222; }
@@ -1054,3 +1054,14 @@ label[for="modtab-threshold"] { color: #222!important; }
 .App__sidebarMenu { width: 94%; }
 .SidebarNav__count { margin-right: 3%; }
 .Sidebar__newMessage { margin-right: 5%; }
+.Message__date { margin-left: 0.5%; }
+.ReportForm { background-color: #999; border: 1px solid #222; border-top-left-radius: 10px; }
+.ReportForm * { border-color: #222!important; }
+.AccordionSection__articleWrap, .AccordionSection__sectionHead { background-color: #808080; }
+.AccordionSection__sectionHead.open, .AccordionSection__chevron.open:before { color: #004880; }
+.AccordionSection__sectionHead:not(.open), .AccordionSection__chevron:not(.open):before { color: #222; }
+.FirstPage__contentPolicyHolder a { color: #004880; }
+.FirstPage__submitButton { background-color: #228; border: 1px solid #222; border-width: 1px 1px 2px 1px; }
+.FirstPage__submitButton:active { border-bottom-width: 1px; transform: translateY(1px); }
+.ReportForm__close { color: #222; }
+.ThreadPreview__authors:after { content: '•'; font-size: 15px; color: #999; }
