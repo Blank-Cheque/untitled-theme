@@ -1,0 +1,24 @@
+html, body, * { color: #222; border-color: #222; }
+a { color: #004880; }
+a:hover { color: #004880!important; text-decoration: underline!important; opacity: 1!important; }
+
+#header, #nav { background-color: #595959; }
+#nav ul li a { color: #FFF; }
+#nav ul li:hover a { color: #222; }
+.logo { border-color: #222; }
+
+#two-columns { background-color: #b3b3b3; }
+#content { background-color: #999; border-right: 1px solid #222; border-top: 1px solid #222; padding-right: 10px; border-left: 1px solid #222; padding-left: 30px; }
+#sidebar { background-color: #808080; padding-left: 5px; border: 1px solid #222; padding-right: 10px; border-right-width: 0px; }
+.smooth-links:after { border-color: transparent #900 transparent transparent!important; }
+
+.jcf-select { border: 1px solid #444; background-color: #808080; color: #222; }
+.jcf-select .jcf-select-text * { color: #222!important; }
+.jcf-select:active { border-color: #222; }
+.jcf-list { border: 1px solid #222; border-radius: 5px; background-color: #808080; box-shadow: none!important; color: #222; }
+.jcf-option { color: #444!important; }
+.jcf-option.jcf-hover { color: #222!important; }
+
+.text:before, .large-text { color: #222!important; }
+
+#wrapper #main .text *, #wrapper #main .text, #wrapper #main h1, #wrapper #main .h3, #wrapper #main .h4, #wrapper #main .info-text, #wrapper #main .info-text time { color: #FFF }
