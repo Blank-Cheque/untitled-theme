@@ -2,15 +2,18 @@ html, body, #client-ui { color: #222; border-color: #222; }
 
 .p-message_pane { background-color: #222; }
 
-.channel_header { background-color: #595959!important; }
+.c-banner--info { background-color: #228; }
+
+#client_header .channel_header, .p-classic_nav { background-color: #595959!important; }
 ts-icon { color: #FFF!important; }
-#pinned_item_count_count, #channel_members_toggle_count_count, .star.ts_icon:before { color: #FFF; }
+#pinned_item_count_count, #channel_members_toggle_count_count, .star.ts_icon:before, .p-classic_nav__model__title__info, .p-classic_nav__model__title__info__topic__edit { color: #FFF; }
 #channel_topic_text { background-color: #595959; color: #FFF}
-#edit_topic_inner:before { background-color: #595959; border-color: #222; }
+#edit_topic_inner:before, .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background-color: #595959; border-color: #222; }
 .channel_header_info_item .btn_link { color: #FFF!important; }
 .search_input_wrapper, #search_terms { background-color: inherit; }
-#search_terms .ql-editor, .p-channel_sidebar__jumper { background-color: #808080!important; border-radius: 8px; border: 1px solid #222; padding: 3px; }
+#search_terms .ql-editor, .p-channel_sidebar__jumper, .p-classic_nav__right__search { background-color: #808080!important; border-radius: 8px; border: 1px solid #222; padding: 3px; }
 #search_terms .ql-editor { padding-left: 5px!important; }
+.p-classic_nav__right__button:hover { color: #222; }
 
 .client_main_container { background-color: #222; }
 #client_body:before { background: inherit!important; }
@@ -39,6 +42,7 @@ ts-icon { color: #FFF!important; }
 .c-reaction { border: 1px solid #222; }
 .c-reaction:hover { background-color: #999!important; }
 .c-message_list__day_divider__line { border-color: #222; }
+.c-message_attachment__thumb { border: 1px solid #222; }
 
 .p-message_pane__limited_history_foreword { background-color: #999; border-top: 1px solid #222; border-bottom: 1px solid #222; }
 
@@ -51,7 +55,7 @@ ts-icon { color: #FFF!important; }
 #col_flex { border-color: #222!important; }
 .c-message_kit__hover--hovered { background-color: #999; }
 
-#footer_msgs { background-color: #808080; border-top: 1px solid #222; padding-top: 5px; border-left: 1px solid #222; }
+#footer_msgs, .p-workspace__primary_view_footer { background-color: #808080; border-top: 1px solid #222; padding-top: 5px; border-left: 1px solid #222; }
 #footer_msgs .ql-editor, #primary_file_button { background-color: #808080!important; color: #444!important; }
 #msg_input { background-color: inherit; }
 #msg_input, #msg_input:focus, #primary_file_button, #primary_file_button:focus { border-color: #222!important; }
@@ -61,7 +65,8 @@ ts-icon { color: #FFF!important; }
 .btn_unstyle .ts_icon_happy_smile:before { color: initial; }
 
 .client_channels_list_container, .p-channel_sidebar { background-color: #808080!important; }
-body:not(.loading) #team_menu:hover { background-color: #595959!important; }
+.p-classic_nav__team_header { background-color: #808080!important; }
+body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_header:hover { background-color: #595959!important; }
 button[aria-label="All Unreads (has unreads)"], button[aria-label="Threads (has unreads)"] { border-top: 1px solid #222; }
 button[aria-label="Threads (has unreads)"] { border-bottom: 1px solid #222; }
 .p-channel_sidebar__link:hover { background-color: #595959; }
@@ -91,3 +96,22 @@ button[aria-label="Threads (has unreads)"] { border-bottom: 1px solid #222; }
 .p-emoji_picker__group_tab:hover, .p-emoji_picker__group_tab--active { background-color: #999; color: #222; }
 .p-emoji_picker__tip--can_add_emoji, .p-emoji_picker__tip__icon { color: #222!important; }
 .p-emoji_picker__tip--can_add_emoji a { color: #004880; }
+.p-emoji_picker__add_custom_emoji { background-color: #808080; border-color: #222; }
+
+.menu_body { background-color: #999; box-shadow: none; border: 1px solid #222; border-radius: 5px}
+.current_user_name, .slack_menu_header_primary { color: #222; }
+.current_user_preferred_name, .current_team_name { color: #444; }
+.slack_menu_section { border-radius: 5px 5px 0px 0px; }
+.slack_menu_download { border-radius: 0px 0px 5px 5px; background-color: #999; }
+.menu_body li[role="menuitem"] { border-top: 1px solid #222; color: #222; }
+.menu_body li[role="menuitem"]:hover a { background-color: #808080!important; }
+.team_pricing_info a { color: #004880!important; }
+
+.c-message_list__unread_divider__separator { border-color: #222; border-width: 1px; }
+.c-message_list__unread_divider__label { color: #222; border: 1px solid #222; background-color: #999; }
+
+.menu { background-color: #999; border: 1px solid #222; box-shadow: none; }
+.menu_body { border: none; }
+.menu .flexpane_menu_item:hover a { background: #808080!important; }
+
+.panel.active { background-color: #999; }
