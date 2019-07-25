@@ -1,0 +1,17 @@
+html, body { background-color: #b3b3b3; }
+.content { background-color: #999; border: 1px solid #222; }
+* { border-color: #222!important; box-shadow: none!important; }
+p, h1, h2, h3, h4, td, th { color: #222; }
+a:not(.ui-button) { color: #004880!important; text-decoration: none; }
+a:hover { color: #004880; text-decoration: underline; }
+
+.ui-button, .ui-button:focus, .ui-button:hover, .ui-button:active { background: #808080!important; color: #222!important; border-bottom-width: 2px!important; }
+.ui-button:active { border-bottom-width: 1px!important; transform: translateY(1px); }
+
+.ui-accordion-header { background: #808080!important; color: #222!important; border-top-left-radius: 8px; border-top-right-radius: 8px; padding-left: 25px!important; padding-top: 0px!important; }
+.ui-accordion-header.ui-accordion-header-collapsed { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+.ui-accordion-header:not(.ui-accordion-header-collapsed) { border-bottom-width: 2px; }
+.ui-accordion-content { background-color: #808080!important; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+.ui-accordion-header.ui-accordion-header-collapsed:before { display: block; content: ' '; width: 0; height: 0; border-bottom: 5px solid transparent; border-top: 5px solid transparent; border-left: 5px solid #222; transform: translateY(15px); transform: translate(-15px, 15px); }
+.ui-accordion-header:not(.ui-accordion-header-collapsed):before { display: block; content: ' '; width: 0; height: 0; border-top: 5px solid #222; border-right: 5px solid transparent; border-left: 5px solid transparent; transform: translateY(15px); transform: translate(-15px, 15px); }
+.ui-accordion-header-icon { display: none; }
