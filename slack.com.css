@@ -1,6 +1,6 @@
 html, body, #client-ui { color: #222; border-color: #222; }
 
-.p-message_pane { background-color: #222; }
+.p-message_pane, .p-workspace__secondary_view, .p-workspace__primary_view, .p-workspace__sidebar { background-color: #222; }
 
 .c-banner--info { background-color: #228; }
 
@@ -11,7 +11,7 @@ ts-icon { color: #FFF!important; }
 #edit_topic_inner:before, .p-classic_nav__model__title__info__topic:hover .p-classic_nav__model__title__info__topic__text:before { background-color: #595959; border-color: #222; }
 .channel_header_info_item .btn_link { color: #FFF!important; }
 .search_input_wrapper, #search_terms { background-color: inherit; }
-#search_terms .ql-editor, .p-channel_sidebar__jumper, .p-classic_nav__right__search { background-color: #808080!important; border-radius: 8px; border: 1px solid #222; padding: 3px; }
+#header_search_form, .p-channel_sidebar__jumper, .p-classic_nav__right__search { background-color: #808080!important; border-radius: 8px; border: 1px solid #222; padding: 3px; }
 #search_terms .ql-editor { padding-left: 5px!important; }
 .p-classic_nav__right__button:hover { color: #222; }
 
@@ -19,7 +19,7 @@ ts-icon { color: #FFF!important; }
 #client_body:before { background: inherit!important; }
 
 .c-scrollbar__hider:before { background-color: #b3b3b3!important; }
-.c-message_list__day_divider__label__pill { margin-top: 7px; background-color: #999; border: 1px solid #222; }
+.c-message_list__day_divider__label__pill { margin-top: 7px; background-color: #999; border: 1px solid #222; transform: translateY(-36%)}
 
 .c-virtual_list__scroll_container { background-color: #b3b3b3; }
 .c-message--hover { background-color: #999!important; }
@@ -28,21 +28,28 @@ ts-icon { color: #FFF!important; }
 .c-message__content a { color: #004880; }
 .c-link--button { color: #004880; }
 .p-message_actions_menu { box-shadow: none; border: 1px solid #222; }
-.c-menu__items { background-color: #808080; }
+.c-menu__items { background-color: #808080; border: 1px solid #222; border-radius: 5px; }
+.c-reaction_add { background-color: #999!important; }
 .c-menu_item__li--highlighted .c-menu_item__button { background-color: #595959; }
 .c-message__actions .c-button-unstyled { background-color: #808080; color: #444}
 .c-message__actions .c-button-unstyled:hover { color: #222; }
 .c-message__actions, .c-message__actions:hover { border: 1px solid #222; border-radius: 7px; box-shadow: none; }
-.c-member_slug { background-color: inherit; }
+.c-member_slug:not(.c-member_slug--mention) { background-color: inherit; }
+.c-member_slug:not(.c-member_slug--mention):hover { background-color: inherit; text-decoration: underline; color: #1264a3}
 .p-notification_bar__typing { color: #222; }
-.c-member_slug--mention { background-color: #1264a3; color: #FFF!important; border-radius: 0px; }
+.c-member_slug--mention { background-color: #1264a3; color: #FFF!important; border-radius: 0px; border-radius: 2px; }
+.c-member_slug--mention:hover { background-color: #3294d3}
 .c-message__reply_bar:hover, .c-message__reply_bar:hover .c-message__reply_bar_view_thread { background-color: #808080!important; border-color: #222; }
 .c-message__reply_bar_description * { color: #444; }
 .c-message_attachment__border, .c-mrkdwn__quote:before { background-color: #999!important; }
-.c-reaction { border: 1px solid #222; }
+.c-reaction { border: 1px solid #222; background-color: #b3b3b3; }
 .c-reaction:hover { background-color: #999!important; }
+.c-reaction--reacted { background-color: #999; }
 .c-message_list__day_divider__line { border-color: #222; }
 .c-message_attachment__thumb { border: 1px solid #222; }
+.c-message_attachment__author_subname { color: #004880; }
+.c-message_attachment__author { color: #222; }
+.c-message_kit__text { color: #222; }
 
 .p-message_pane__limited_history_foreword { background-color: #999; border-top: 1px solid #222; border-bottom: 1px solid #222; }
 
@@ -115,3 +122,47 @@ button[aria-label="Threads (has unreads)"] { border-bottom: 1px solid #222; }
 .menu .flexpane_menu_item:hover a { background: #808080!important; }
 
 .panel.active { background-color: #999; }
+
+.p-archives_banner { background-color: #999; border: 1px solid #222; border-bottom-width: 0px; color: #444; font-weight: normal; }
+
+.p-activity_flexpane__top_anchor_hack_item { border-color: #222; }
+.p-activity_flexpane .p-flexpane_header { border-bottom: none; }
+.c-message_kit__footer_spacer:before { color: #222; }
+
+.c-pillow_file_container { border-color: #222!important; }
+.c-pillow_file { background-color: #999; }
+.c-pillow_file__icon:before { color: #004880; }
+.c-pillow_file__icon:after { color: #FFF; background-color: #004880; border-width: 2px; }
+.c-pillow_file__slide { background-color: #999!important; }
+.c-file__action_button { opacity: 1!important; background-color: #999; }
+.c-file__action_button:after { border-color: #222; }
+
+.p-flexpane__body--empty { background-color: #999; }
+
+.c-input_text, .c-texty_input--single_line, .c-multi_select_input { background-color: #808080; border: 1px solid #222; color: #222; }
+
+.c-fullscreen_modal__body { background-color: #b3b3b3; }
+.c-fullscreen_modal__close { color: #444; }
+.c-fullscreen_modal__close:hover { background-color: #999; color: #444; }
+.c-fullscreen_modal__close:active { background-color: #999; color: #222; }
+
+#invite_users_input_invites { background-color: inherit; }
+.c-input_text:focus, .c-texty_input--single_line:focus, .ql-container.focus { border: 1px solid #222!important; }
+.c-input_text:focus, .c-texty_input--single_line:focus, .c-multi_select_input:focus, .ql-container.focus, .c-multi_select_input--focused { box-shadow: none!important; }
+
+.c-toggle__input { background-color: #999; border-color: #222; }
+.c-toggle__visual:after { background-color: #222; }
+.c-toggle__input:focus { box-shadow: none; border: 1px solid #222; }
+
+.c-button { background-color: #808080; border: 1px solid #222; border-bottom-width: 2px; color: #222; }
+.c-button:focus { box-shadow: none; border: 1px solid #222; border-bottom-width: 2px; }
+.c-button:active { border-bottom-width: 1px; background-color: #808080; transform: translateY(1px); }
+.c-button:active:focus { border-bottom-width: 1px; }
+
+.c-button--disabled { border-bottom-width: 1px; background-color: #999; color: #444; }
+
+.p-message_pane__top_banners { transform: translateY(-50%);  }
+.p-message_pane__unread_banner > * { background-color: #228; }
+.c-scrollbar__hider:before { display: none!important; }
+
+.c-menu_item__description { color: #444; }
