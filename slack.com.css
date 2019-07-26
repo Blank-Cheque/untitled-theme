@@ -22,6 +22,7 @@ ts-icon { color: #FFF!important; }
 .c-message_list__day_divider__label__pill { margin-top: 7px; background-color: #999; border: 1px solid #222; transform: translateY(-36%)}
 
 .c-virtual_list__scroll_container { background-color: #b3b3b3; }
+.c-message--light { background-color: #b3b3b3; }
 .c-message--hover { background-color: #999!important; }
 .c-message__edited_label, .c-timestamp__label, .c-message__broadcast_preamble_meta { color: #444!important; }
 .c-avatar__image { border: 1px solid #222; border-radius: 5px; }
@@ -49,6 +50,7 @@ ts-icon { color: #FFF!important; }
 .c-message_attachment__thumb { border: 1px solid #222; }
 .c-message_attachment__author_subname { color: #004880; }
 .c-message_attachment__author { color: #222; }
+.c-message_attachment__footer { color: #222; }
 .c-message_kit__text { color: #222; }
 
 .p-message_pane__limited_history_foreword { background-color: #999; border-top: 1px solid #222; border-bottom: 1px solid #222; }
@@ -206,3 +208,8 @@ button[aria-label="Threads (has unreads)"] { border-bottom: 1px solid #222; }
 
 .p-prefs_modal__radiogroup--selected { background-color: #999!important; }
 .p-prefs_modal__radio_decorator { background-color: inherit!important; }
+
+.p-degraded_list__loading--offline { background-color: #b3b3b3; }
+.p-degraded_list__loading { background-color: #b3b3b3; color: #222; }
+
+.p-member_profile_card { background-color: #999; border: 1px solid #222; }
