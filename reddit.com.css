@@ -746,7 +746,7 @@ body:not(.tb-show-actions) .content .thing .action-reason { background-color: in
 .searchpane { background-color: #999; border-color: #222; border-radius: 5px; }
 .searchpane h4 { color: #222!important; }
 
-.thing.collapsed > .entry > .tagline > .expand { color: #222; }
+.thing > .entry > .tagline > .expand { color: #222; }
 .thing.collapsed > .entry > .tagline > a.author { color: #004880; font-style: normal; }
 .thing.collapsed > .entry > .tagline > span.author { color: #595959; font-style: normal; }
 .thing.collapsed > .entry > .tagline > .collapsed-reason { color: #222; }
@@ -1098,6 +1098,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 #random.button .icon, #clear.button .icon { border-radius: 8px; }
 #snoo-body.button .icon { border-radius: 5px 0px 0px 5px; }
 #grippables.button .icon { border-radius: 0px 5px 5px 0px; }
+.snoovatar-page > .container > footer > .message { background-color: #999; border: 1px solid #222; color: #222; }
 
 .redditname+.subscribe-button .option { font-size: 0px; }
 .redditname+.subscribe-button .option.remove:after { content: "unfollow"; font-size: 15px; background-color: #990000; color: #FFF; padding-right: 10px; padding-left: 10px; padding-top: 1px; padding-bottom: 1px; border: 1px solid #200; border-bottom-width: 2px; border-radius: 50px; }
@@ -1141,3 +1142,6 @@ label[for="modtab-threshold"] { color: #222!important; }
 .sr-interest-bar .query { padding-right: 0px; }
 .sr-interest-bar .bubble { background-color: #808080; }
 .sr-interest-bar .bubble:after { border-right-color: #808080; }
+
+body.mod-toolbox-rd .tb-bracket-button { line-height: 11px; }
+body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
