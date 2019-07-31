@@ -683,7 +683,7 @@ body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs { background-color: 
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a { width: 450px; border-bottom: 1px solid #222; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a:last-of-type { border-right: none!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar a, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter), body .tb-profile-overlay .tb-window-wrapper .tb-link-author, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover { color: #004880!important; }
-body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-detail-ul a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-modsubs a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):hover { color: #004880!important; text-decoration: underline!important; }
+body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-detail-ul a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-modsubs a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter):hover { color: #004880!important; text-decoration: underline!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-parent a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-link-author:hover, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover:hover { color: #004880!important; }
 body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-link-author[href="/user/[deleted]"], html body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-trophy-info span { color: #222!important; }
 body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-link-author[href="/user/[deleted]"]:hover, html body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-trophy-info a:hover { color: #222!important; text-decoration: none!important; }
@@ -704,7 +704,7 @@ body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-domain a
 .mod-toolbox .tb-window-wrapper .tb-thing > div > .tb-tagline > .tb-userattrs > a.tb-moderator:hover { color: #228822!important; text-decoration: underline; }
 .mod-toolbox .tb-thing .tb-tagline a.tb-comment-author.tb-moderator, .mod-toolbox-rd .tb-thing .tb-tagline > a.tb-submission-author.tb-moderator { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #228822!important; }
 .mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-moderator:hover, .mod-toolbox-rd .tb-thing .tb-tagline > a.tb-submission-author.tb-moderator:hover { background-color: #134913!important; }
-.mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-submitter, .thing.collapsed > .entry > .tagline > .author.submitter, .thing.collapsed > .entry > .tagline > .head > .sender > .author.submitter { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #4e7eab!important; }
+.mod-toolbox .tb-thing > .tb-comment-entry > .tb-tagline > a.tb-comment-author.tb-submitter:hover, .thing.collapsed > .entry > .tagline > .author.submitter:hover, .thing.collapsed > .entry > .tagline > .head > .sender > .author.submitter:hover { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #4e7eab!important; text-decoration: none!important; opacity: 1!important; }
 .thing.collapsed > .entry > .tagline > .head > .sender > .author.moderator:hover { background-color: #134913!important; }
 .mod-toolbox .tb-thing .tb-tagline > a.tb-comment-author.tb-moderator, .thing.collapsed > .entry > .tagline > .author.moderator, .thing.collapsed > .entry > .tagline > .head > .sender > .author.moderator { color: #FFFFFF!important; font-weight: bold!important; padding: 0 2px 0 2px!important; border-radius: 3px!important; background-color: #228822!important; }
 .thing.collapsed > .entry > .tagline > .head > .sender > .author.moderator:hover { background-color: #134913!important; }
@@ -859,7 +859,7 @@ span.gray { color: #595959; }
 #mod-matrix-wrapper tfoot { background-color: #999; }
 #mod-matrix-wrapper #mod-matrix tr:hover { background-color: #808080!important; }
 
-.trophy-icon { border: 1px solid #222; border-radius: 12px; }
+.trophy-icon, .tb-trophy-icon { border: 1px solid #222; border-radius: 12px; }
 
 .res-text-media.md tbody * { background-color: #595959; }
 .res-text-media.md { background-color: #595959!important; border-color: #222!important; }
@@ -1073,7 +1073,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ReportForm__close { color: #222; }
 .ThreadPreview__authors:after { content: '•'; font-size: 15px; color: #999; }
 .FormattingHelp__link { color: #004880!important; }
-.Loading { color: #222; }
+.Loading, .ThreadListing__pendingText { color: #222; }
 
 #helpcenter-form * { border-color: #222!important; }
 .helpcenter-header, .accordion-section-header { color: #222; }
@@ -1116,7 +1116,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 
 .subreddit-rule-description a { color: #004880; }
 
-.redditname .masstagger { display: none; }
+.redditname .masstagger, .subscribe-button+a+.masstagger { display: none; }
 
 #admin-bar .status-bar .caption { color: #444; }
 #admin-bar .status-bar { box-shadow: none!important; border-color: #222; }
@@ -1148,3 +1148,5 @@ body.mod-toolbox-rd .tb-bracket-button { line-height: 11px; }
 body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 
 #tb-trouble-collapse { margin-left: 5px; }
+
+.pinnable-content.pinned { background-color: transparent!important;  }
