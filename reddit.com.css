@@ -1054,6 +1054,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .SidebarCommunities__sort input[value="activity"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'activity'; font-size: 13px; }
 .SidebarCommunities__sort input[value="name"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'name'; font-size: 13px; }
 .ThreadTitle__community:before { content: '/r/'; }
+.FancySelect.NewThread__communitySelect input[value]:not([value='']) + .FancySelect__value .FancySelect__valueText:before, .FancySelect__option:not(:first-of-type):before { content: '/'; }
 .Toaster { box-shadow: none!important; border: 1px solid #222; margin-top: 5px; border-radius: 8px; }
 .Toaster__message { color: #222; border-radius: 0px 7px 7px 0px; background-color: #595959}
 .Toaster__close:before { color: #222; }
