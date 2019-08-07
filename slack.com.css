@@ -68,7 +68,7 @@ ts-icon { color: #FFF!important; }
 #col_flex { border-color: #222!important; }
 .c-message_kit__hover--hovered { background-color: #999; }
 
-#footer_msgs, .p-workspace__primary_view_footer { background-color: #808080; border-top: 1px solid #222; padding-top: 5px; border-left: 1px solid #222; }
+#footer_msgs, .p-workspace__primary_view_footer { background-color: #808080; border-top: 1px solid #222; padding-top: 5px; }
 #footer_msgs .ql-editor, #primary_file_button { background-color: #808080!important; color: #444!important; }
 #msg_input { background-color: inherit; }
 #msg_input, #msg_input:focus, #primary_file_button, #primary_file_button:focus { border-color: #222!important; }
@@ -122,7 +122,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 .menu_body li[role="menuitem"]:hover a { background-color: #808080!important; }
 .team_pricing_info a { color: #004880!important; }
 
-.c-message_list__unread_divider__separator { border-color: #222; border-width: 1px; }
+.c-message_list__unread_divider__separator { border-color: #222!important; border-width: 1px; }
 .c-message_list__unread_divider__label { color: #222; border: 1px solid #222; background-color: #999; }
 
 .menu { background-color: #999; border: 1px solid #222; box-shadow: none; }
@@ -206,7 +206,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 
 .c-input_textarea { background-color: #808080; border: 1px solid #222!important; box-shadow: none!important; }
 
-.c-mention_badge { background-color: #222; }
+.c-mention_badge { background-color: #222; color: #fff!important; }
 
 .c-label { border-color: #222!important; }
 
@@ -269,3 +269,64 @@ code::selection { background-color: #999; }
 .p-apps_browser__app { border-top: 1px solid #222; }
 .p-apps_browser__app:hover { background-color: #999; border-color: #222; }
 .p-apps_browser__category_section--tutorial .p-apps_browser__app { border-color: #222; }
+
+.c-search_modal .ReactModal__Content > div[role="presentation"] { background-color: #999; border: 1px solid #222; }
+.c-search_autocomplete footer { background-color: #808080; border-top: 1px solid #222; }
+.c-search__input_and_close { border-bottom: 1px solid #222; background-color: #808080; }
+.c-search__input_box { background-color: #808080!important; }
+.c-icon--times { color: #444; }
+.c-icon--times:hover { color: #222; }
+.c-search__input_box__input { border: 1px solid #222!important; background-color: #808080; }
+.c-search_autocomplete__suggestion_item--selected { background-color: #808080; }
+.ql-placeholder { background-color: inherit!important; border: none!important; }
+.c-search_autocomplete__header_label_text { color: #444; }
+.token.member_token, .token.channel_token { background-color: #b3b3b3; }
+.c-search_autocomplete__suggestion_item--selected .token.member_token, .c-search_autocomplete__suggestion_item--selected .token.channel_token { background-color: #999; }
+.c-keyboard_key { background-color: #595959; border: 1px solid #222; color: #222}
+.c-search, .c-search__container { background-color: #999; }
+.c-search__tabs { background-color: #808080; border-bottom: 1px solid #222; box-shadow: none; }
+.c-search_filter_section__title:after { border-color: #444; }
+.c-search_filter_section__title { color: #444; }
+.c-channel_name__text { color: #222; }
+.p-search_filter__date { background-color: #808080; border-color: #222!important; }
+.p-search_filter__datepicker_trigger, .p-search_filter__dates { border-color: #222!important; }
+.p-search_filter__date:first-of-type { border-radius: 3px 3px 0px 0px; }
+.p-search_filter__date:last-of-type { border-radius: 0px 0px 3px 3px; }
+.p-message_limit_banner { background-color: #808080; border: 1px solid #222; }
+.p-message_limit_banner__graphic { background-color: #808080; }
+.c-search__section_header, .p-message_limit_banner__content { color: #444; }
+.c-tabs__tab--active, .c-tabs__tab:active { box-shadow: inset 0 -2px 0 0 #222!important; }
+.c-input_select_options_list__option--selected { color: #004880; }
+.ReactVirtualized__Grid { border: none; }
+.c-search__input_box__clear { color: #444; border-color: #222!important; }
+.c-search__input_box__clear:hover { color: #222; }
+.c-search__input_box__icon { color: #444; }
+.c-tabs__tab:not(.c-tabs__tab--active) { color: #444; }
+.c-message_group { border: 1px solid #222!important; background-color: #808080}
+.c-message_group__header_date { color: #004880!important; }
+.c-icon--channel { color: #222!important; }
+.c-channel_name + span { color: #004880!important; }
+.c-message_group__header_view_label { color: #444; }
+.c-message_attachment__footer_text { color: #444; }
+.c-search_message__replies_count { color: #444; }
+.c-search__expand_ellipsis { color: #444; }
+.c-message_actions__button { background-color: #595959; border-radius: 4px!important; }
+.c-message_actions__container { border: 1px solid #222; }
+.c-message_actions__container i:before { color: #222; }
+
+.c-date_picker__dropdown { background-color: #999; border: 1px solid #222; }
+.c-date_picker_calendar__date { border-color: #222; }
+.c-date_picker_calendar__date:hover { background-color: #808080!important; border-color: #222!important; }
+.c-date_picker_calendar__date--is_today { color: #222; }
+.c-date_picker_calendar__date--is_today:after { border-color: #222; }
+.c-date_picker_calendar__date--disabled { background-color: #808080; color: #444; }
+.c-calendar_view_header__stepper_btn:hover { background-color: #808080; }
+.c-calendar_view_header__stepper_btn:active { background-color: #808080; color: #222; }
+.c-calendar_view_header__title_btn:hover, .c-calendar_view_header__title_btn:active { background-color: #808080; color: #222; }
+.c-calendar_month__day_of_week_heading { color: #444; }
+.c-mini_calendar__month_button { border-color: #222!important; }
+.c-mini_calendar__month_button:hover { background-color: #808080!important; }
+.c-mini_calendar__month_button--is_active { background-color: #808080; border-radius: 0; }
+.c-mini_calendar__month_button:disabled { background-color: #808080!important; color: #444; }
+
+.c-mrkdwn__highlight { background-color: #999; border: 1px solid #222; padding: 1px; }
