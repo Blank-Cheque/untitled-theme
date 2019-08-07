@@ -1164,7 +1164,7 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 #sr-header-area { position: absolute; }
 .menuarea.modtools[style*='top: ']:not([style*='top: inherit']) { margin-top: 0.8%!important; }
 
-.content { background-color: #999; border-color: #222; }
+.content { background-color: inherit; border-color: #222; }
 .content p, .content h1, .content h2, .content h3, .content h4 { color: #222; }
 .content a, .liveupdate-listing li.liveupdate a.author { color: #004880; opacity: 1!important; }
 .liveupdatelinkback a:before { display: none; }
