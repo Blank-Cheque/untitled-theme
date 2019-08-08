@@ -46,9 +46,9 @@ ts-icon { color: #FFF!important; }
 .c-member_slug--mention:hover { background-color: #3294d3}
 .c-message__reply_bar:hover, .c-message__reply_bar:hover .c-message__reply_bar_view_thread { background-color: #808080!important; border-color: #222; }
 .c-message__reply_bar_description * { color: #444; }
-.c-message_attachment__border, .c-mrkdwn__quote:before { background-color: #999!important; }
+.c-message_attachment__border, .c-mrkdwn__quote:before { background-color: #595959!important; }
 .c-reaction { border: 1px solid #222; background-color: #b3b3b3; }
-.c-reaction:hover { background-color: #999!important; }
+.c-reaction:hover { background-color: #999!important; box-shadow: none!important; }
 .c-reaction--reacted { background-color: #999; }
 .c-message_list__day_divider__line { border-color: #222; }
 .c-message_attachment__thumb { border: 1px solid #222; }
@@ -108,10 +108,12 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 .p-emoji_picker__preview_text { background-color: #999; border: 1px solid #222; border-radius: 8px; padding-left: 5px; color: #444; padding-bottom: 4px; padding-top: 4px; }
 .p-emoji_picker__list_item:hover { background: inherit!important; border: 1px solid #222; }
 .p-emoji_picker__group_tab { color: #444; }
-.p-emoji_picker__group_tab:hover, .p-emoji_picker__group_tab--active { background-color: #999; color: #222; }
+.p-emoji_picker__group_tab:hover, .p-emoji_picker__group_tab--active { background-color: #999; color: #222; border-color: #222; }
 .p-emoji_picker__tip--can_add_emoji, .p-emoji_picker__tip__icon { color: #222!important; }
 .p-emoji_picker__tip--can_add_emoji a { color: #004880; }
 .p-emoji_picker__add_custom_emoji { background-color: #808080; border-color: #222; }
+.p-emoji_picker__footer:not(.p-emoji_picker__footer--previewing) .p-emoji_picker__preview_text { display: none; }
+.p-emoji_picker__list_item.key_selection { background-color: inherit!important; }
 
 .menu_body { background-color: #999; box-shadow: none; border: 1px solid #222; border-radius: 5px}
 .current_user_name, .slack_menu_header_primary { color: #222; }
@@ -229,7 +231,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 
 .c-input_select--active { box-shadow: none!important; }
 
-code { background-color: #282A36}
+code { background-color: #282A36; border: 1px solid #fff; }
 code::selection { background-color: #999; }
 
 .c-texty_input__button_icon { color: #595959; }
@@ -310,7 +312,6 @@ code::selection { background-color: #999; }
 .c-message_attachment__footer_text { color: #444; }
 .c-search_message__replies_count { color: #444; }
 .c-search__expand_ellipsis { color: #444; }
-.c-message_actions__button { background-color: #595959; border-radius: 4px!important; }
 .c-message_actions__container { border: 1px solid #222; }
 .c-message_actions__container i:before { color: #222; }
 
@@ -330,3 +331,22 @@ code::selection { background-color: #999; }
 .c-mini_calendar__month_button:disabled { background-color: #808080!important; color: #444; }
 
 .c-mrkdwn__highlight { background-color: #999; border: 1px solid #222; padding: 1px; }
+
+.c-message__editor__input { background-color: #808080; border: 1px solid #222; }
+
+.c-mrkdwn__pre { background-color: #282A36; border: 1px solid #fff; color: #e01e5a}
+.c-mrkdwn__pre::selection { background-color: #999; }
+
+.p-share_dialog__section:last-of-type { margin-bottom: 5px; }
+.p-file_details__share_divider span { color: #444; }
+.p-file_details__share_divider hr { border-color: #444; }
+
+.p-classic_nav__right_header--context_pane { background-color: inherit; }
+
+.p-file_flexpane__storage-warning-container { background-color: #999; border-color: #222; }
+.c-file__actions { border-color: #222!important; }
+.c-action_buttons__button { background-color: #808080; border-color: #222!important; }
+.c-action_buttons__icon:before { color: #444; }
+.c-action_buttons__button:hover .c-action_buttons__icon:before { color: #222; }
+.c-action_buttons__button:focus { background-color: inherit; }
+.c-pillow_file__icon { border: 1px solid #222; }
