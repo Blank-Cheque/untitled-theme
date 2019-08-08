@@ -1161,14 +1161,18 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 
 .tb-status-approved { color: #222; }
 
-#sr-header-area { position: absolute; }
 .menuarea.modtools[style*='top: ']:not([style*='top: inherit']) { margin-top: 0.8%!important; }
 
-.content { border-color: #222; }
+.content { background-color: inherit; border-color: #222; }
 .content p, .content h1, .content h2, .content h3, .content h4 { color: #222; }
-.content a, .liveupdate-listing li.liveupdate a.author { color: #004880; opacity: 1!important; }
+.content #liveupdate-header a, .content .liveupdate a, .liveupdate-listing li.liveupdate a.author { color: #004880; opacity: 1!important; }
 .liveupdatelinkback a:before { display: none; }
 #liveupdate-header ~ .main-content .sidebar { border: 1px solid #222; border-radius: 10px; }
 #liveupdate-header ~ .main-content #contributors, #liveupdate-header ~ .main-content #report { border-color: #222; }
 .liveupdate time { color: #222!important; }
 #liveupdate-statusbar { border-radius: 8px!important; }
+
+.modal-body { border-radius: 19px; }
+.modal-dialog-lg .modal-content { border: 1px solid #222; border-radius: 20px; }
+
+.interstitial { color: #222; }
