@@ -1008,7 +1008,8 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ThreadPreview__badge { color: #222!important; }
 .ThreadPreview__author.m-admin, .Message__author.m-admin { background-color: #FF0011; color: #FFF; padding: 1px 2px 1px 2px; border-radius: 3px; font-size: x-small; font-weight: bold; }
 .ThreadPreview__author.m-admin:hover, .Message__author.m-admin:hover { background-color: #B3000C; color: #FFF!important; text-decoration: none; }
-.ThreadPreview__author, .Message__author:not(.m-mod, .m-admin) { color: #222!important; }
+.ThreadPreview__author, .Message__author:not(.m-mod):not(.m-admin) { color: #222!important; }
+.ThreadPreview__author, .Message__author:hover:not(.m-mod):not(.m-admin) { color: #222!important; }
 .SidebarCommunities__community .SidebarCommunity__name:before { content: '/'; }
 .SidebarCommunities__allCommunities .SidebarCommunity__name { font-size: 0px; }
 .SidebarCommunities__allCommunities .SidebarCommunity__name:after { content: 'All Subreddits'; font-size: 14px; }
@@ -1186,6 +1187,11 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 #chat-container > div > main > div:nth-of-type(3) > div > div > div { box-shadow: none; }
 #chat-container > div > main > div:nth-of-type(2) > div > form > div > div > div:not(:first-of-type) { color: #222; }
 #chat-container > div > main > div:nth-of-type(3) > div > div { background-color: transparent!important; }
-#chat-container > div > main > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > time { background-color: #808080; border: 1px solid #222; border-radius: 8px; color: #222!important; }
+#chat-container > div > main > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div > time { background-color: #808080; border: 1px solid #222; border-radius: 8px; color: #222!important; }
 #chat-container > div > main > div[class=''] > div { background-color: #999; }
 #chat-container > div > main > div[class=''] > div > button { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div > span > span { color: #222; }
+#chat-container pre + span { background-color: #999; }
+
+.quarantine-notice { background-color: #cca300; border: 1px solid #222; border-radius: 8px; }
+.quarantine-notice .btn-quarantine, .quarantine-notice .btn-quarantine:hover, .quarantine-notice .btn-quarantine:active { background-color: #997a00!important; }
