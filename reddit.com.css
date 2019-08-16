@@ -114,14 +114,14 @@ html #header { border-color: #222222!important; background-color: #595959; }
 html body.compose-page #header-bottom-right { background-color: #808080; }
 html body.compose-page a { color: #004880; }
 
-#siteTable .thing .entry p, #siteTable .thing .entry p del, .thing .entry .flat-list.buttons *, .entry, blockquote p, .thing.self .entry.res-selected { color: #222222; }
+.sitetable .thing .entry p, .sitetable .thing .entry p del, .thing .entry .flat-list.buttons *, .entry, blockquote p, .thing.self .entry.res-selected { color: #222222; }
 blockquote { border-left: 2px solid #595959!important; background-color: inherit!important; color: inherit!important; }
-.thing:not(.approved):not(.spam) > .child > .sitetable > .thing.res-selected, #siteTable > .thing.res-selected { background-color: #999999; }
+.thing:not(.approved):not(.spam) > .child > .sitetable > .thing.res-selected, .sitetable > .thing.res-selected { background-color: #999999; }
 .thing.approved > .child > .sitetable > .thing.res-selected, .thing.spam > .child > .sitetable > .thing.res-selected { background-color: transparent!important; border-top: 1px solid #222; border-top-left-radius: 0px!important; }
 body .thing.self .usertext-body .md, body .thing.self.res-selected .usertext-body .md, body .description .usertext .usertext-body .md { background-color: #808080!important; border-color: #222222!important; }
 body .entry.res-selected, .thing .entry.res-selected .usertext-body, .thing .entry.res-selected .md-container { background-color: inherit!important; }
-#siteTable .thing.comment, .tb-sitetable .tb-thing.tb-comment, .sitetable .thing.message.message-parent, .sitetable .thing.link, .tb-sitetable .tb-thing.tb-submission { border-radius: 10px; }
-#siteTable .entry { padding-top: 5px; padding-bottom: 5px; padding-left: 5px; }
+.sitetable .thing.comment, .tb-sitetable .tb-thing.tb-comment, .sitetable .thing.message.message-parent, .sitetable .thing.link, .tb-sitetable .tb-thing.tb-submission { border-radius: 10px; }
+.sitetable .entry { padding-top: 5px; padding-bottom: 5px; padding-left: 5px; }
 .domain * { color: #222222!important; }
 .domain { color: #222222; }
 .rank { color: #505050!important; }
@@ -150,6 +150,7 @@ html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spa
 html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) { background-color: #b3b3b3!important; border-color: #222222!important; }
 html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) { background-color: #999999!important; border-color: #222222!important; }
 html:not(.res-commentBoxes) .comments-page .comment .comment { border: solid 1px #222222; border-bottom: none; border-right: none; border-radius: 5px; }
+.entry.res-selected + .action-reason { background-color: #fa8072!important; }
 
 html:not(.res-commentBoxes) .sitetable.nestedlisting > .comment { border: solid 1px #222222; border-radius: 5px; margin-bottom: 5px; }
 
@@ -887,52 +888,6 @@ tr[style="background-color: #ffff99; text-align: center"] { background-color: #9
 
 .toc * { border-color: #222!important; }
 
-a.cmyfE, a.kueeEi, a.cjVRCO { background-color: #595959!important; }
-a.jCpNeK, a.jnZTeC { background-color: #999!important; }
-a.jCpNeK *, a.jnZTeC * { color: #222!important; }
-#tooltip-container { background-color: #999!important; padding-bottom: 3px; }
-#tooltip-container * { border-color: #222!important; color: #222; }
-#tooltip-container *:focus { box-shadow: none!important; }
-.e23vrj-3 { border-bottom: none!important; }
-.gOrZlL { background-color: #808080; border-top: 1px solid #222; border-left: 1px solid #222; border-right: 1px solid #222; }
-.s1albn0i-0, .s1albn0i-1 { background-color: #999!important; }
-.h0f3w6-1 { background-color: #808080; }
-.s810vm8-1 { background-color: #808080; }
-.dropdown-container:hover { background-color: #808080; }
-.s1w2coi-1, .s1ooudg8-6 { background-color: #808080; }
-.s1w2coi-1:hover, .s1ooudg8-6:hover { background-color: #595959; }
-.lsgkpx-0 button .ezGOlP[class="s5qnb9m-0 ezGOlP"] { background-color: #808080; border: 1px solid #222; border-radius: 4px; }
-.s19j8s74-1 { border-right: 1px solid #222; border-radius: 0px!important; }
-.s19j8s74-1:first-child { border-radius: 4px 0px 0px 4px!important; }
-.s19j8s74-1:last-child { border-radius: 0px 4px 4px 0px!important; }
-.zz49wb-2:hover { background-color: inherit; }
-#chat-container pre { background-color: inherit!important; color: #222!important; }
-#chat-container { padding-bottom: 5px!important; }
-iframe.pinned-to-bottom { border-radius: 4px!important; border: 1px solid #222!important; }
-._3ey3bKaKuSVt2EZD-7y5ng { background: #808080!important; }
-.OLVjZ { background-color: #808080; border: 1px solid #222; border-radius: 3px; }
-.s19j8s74-1 { background-color: #808080; border-radius: 3px}
-.h4e6i3-0 div { background-color: #808080; border-top: 1px solid #222; border-bottom: 1px solid #222; }
-.jogEUo { display: none; }
-.s1ooudg8-4 div { border: none; }
-.s1ooudg8-11, .s1ooudg8-8 { border: none!important; }
-g * { fill: #222!important; }
-span[class=".h0f3w6-0 .s19j8s74-1"] { border-radius: 4px!important; }
-svg[class="s5qnb9m-0 ezGOlP"] * { fill: #222!important; }
-.h0f3w6-0 { background: none!important; border: 1px solid #222!important; margin-right: 0px; }
-.m0gh4e-1 { border-top: 1px solid #222!important; }
-svg[class="zz49wb-1 hgrqOA s5qnb9m-0 ezGOlP"] *, svg[class="s14zmds0-1 kxoVRU s5qnb9m-0 ezGOlP"], svg[class="m0gh4e-0 iZoJEo s5qnb9m-0 ezGOlP"] { fill: #222!important; }
-.s14zmds0-2.cOekVZ.s5qnb9m-0.ezGOlP path:first-child, svg[class="s8l6j2b-1 iDtyex s5qnb9m-0 ehoYMV"] { fill: #444!important; }
-.s8l6j2b-0 { margin-bottom: 5px; margin-top: 10px; }
-.s8l6j2b-5 { border: 1px solid #222!important; padding-left: 13px}
-.okwj9w-2 { box-shadow: none!important; background-color: #999; }
-.okwj9w-4 { background-color: #808080; border: none; border-left: 1px solid #222; }
-.s11rrl6b-0 { background-color: #999; }
-.s11rrl6b-0:hover, .s1o4sve7-3:hover, .s18xxabp-0:hover { background-color: #808080; }
-.s5fdb09-4 { background-color: #808080; border: 1px solid #222; }
-.s5fdb09-4:active, .s5fdb09-4:focus { background-color: inherit; }
-.s1vu8wmx-0 { border: 1px solid #222; border-radius: 4px; }
-
 label[for="modtab-threshold"] { color: #222!important; }
 
 .app-scope { background-color: #808080; padding: 3px; }
@@ -1047,7 +1002,8 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ModAction__author { color: #282; }
 .ModAction__text { color: #222; }
 .SidebarCommunity:hover .SidebarCommunity__selectedIcon:before { color: #999!important; }
-.ThreadListing__internalThread { background: none; width: 2%; border-radius: 8px; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
+.ThreadListing__thread.m-read .ThreadListing__internalThread { background: none; width: 2%; border-radius: 8px; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
+.ThreadListing__thread:not(.m-read) .ThreadListing__internalThread { background: none; width: 2%; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
 .ThreadListing__thread:not(.m-read) { border-radius: 8px; border: 1px solid #222; border-width: 1px 1px 1px 6px; border-left-color: #22b; }
 .ThreadPreview__badge { color: #222!important; }
 .ThreadPreview__author.m-admin, .Message__author.m-admin { background-color: #FF0011; color: #FFF; padding: 1px 2px 1px 2px; border-radius: 3px; font-size: x-small; font-weight: bold; }
@@ -1180,3 +1136,56 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 .modal-dialog-lg .modal-content { border: 1px solid #222; border-radius: 20px; }
 
 .interstitial { color: #222; }
+
+.tb-syntax-button-save-wiki { margin-left: 3px; }
+
+#chat-container, #chat-container > div, #chat-container > div > main { background-color: #b3b3b3!important; }
+#chat-container * { border-color: #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > nav, #chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(1) { background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(1) { border-right: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > nav > span:nth-of-type(1) > span:nth-of-type(2), #chat-container > div > main > div:nth-of-type(2) > div > nav > span:nth-of-type(1) > span:nth-of-type(2) > span { color: #222; }
+#chat-container time { color: #444; }
+#chat-container div
+#chat-container > div > main > div:nth-of-type(2) > div > div > div > div:not(:nth-of-type(1)) > div { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div > div:not(:nth-of-type(1)) > div { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div > div:not(:nth-of-type(1)) > div > span > span { background-color: #999; border-radius: 3px; }
+#chat-container pre { background-color: inherit!important; color: #222!important; }
+#chat-container pre a { color: #004880; text-decoration: none; border: none; }
+#chat-container pre a:hover { text-decoration: underline; }
+#chat-container svg { fill: #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > nav > span:nth-of-type(2) > button { background-color: #999; border: 1px solid #222; }
+#chat-container > div > main > div[class='']:nth-of-type(3) > div[class*=' _'] > div[role='button'] { background-color: #999!important; }
+#chat-container > div > main > div:nth-of-type(3) > div > div > span { color: #222; }
+#chat-container > div > main > div:nth-of-type(3) > div > div:first-of-type { border-top-left-radius: 5px; border-top-right-radius: 5px; }
+#chat-container > div > main > div:nth-of-type(3) > div > div:last-of-type { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+#chat-container > div > main > div:nth-of-type(3) > div { border-radius: 5px; }
+#chat-container > div > main > div:nth-of-type(3) > div > div:hover { background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) { background-color: #808080; border-right: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a { background-color: #808080; border-bottom: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:first-of-type { border-top: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a[class*=' _'], #chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:hover { background-color: #595959; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a > div * { color: #222!important; }
+#chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a[class*=' _'] *, #chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a:hover > div * { color: #fff!important; }
+#chat-container > div > main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a > p { color: #222; }
+#chat-container > div > main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:hover > p, #chat-container > div > main > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a[class*=' _'] > p { color: #fff; }
+#chat-container > div > main > div > div:nth-of-type(1) ul > li { color: #222; }
+#chat-container > div > main > div > div:nth-of-type(1) ul > li > a { color: #222; border-bottom: 1px solid #222; }
+#chat-container > div > main > div > div:nth-of-type(1) ul > li:first-of-type > a { border-top: 1px solid #222; }
+#chat-container > div > main > div > div:nth-of-type(1) ul > li > a[class*=' _'], #chat-container > div > main > div > div:nth-of-type(1) ul > li > a:hover { color: #fff; background-color: #595959; }
+#chat-container > div > main > div > div > div:nth-of-type(2) > div:first-of-type, #chat-container > div > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div { color: #222; }
+#chat-container > div > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a { color: #004880; }
+#chat-container > div > main > div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > a:hover { text-decoration: underline; }
+#chat-container > div > main > div:nth-of-type(1) > span { border-right: 1px solid #222; background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(1) > span > span { color: #004880; }
+#chat-container textarea { background-color: #808080; border: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(3) h4 { background-color: #808080; border-top-left-radius: 3px; border-top-right-radius: 3px; }
+#chat-container > div > main > div:nth-of-type(3) h4 > button { background-color: #808080; border: none; }
+#chat-container > div > main > div:nth-of-type(3) > div > div > div > div { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(3) > div > div > div > div > div > div { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(3) > div > div > div > div > div > div:hover { background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(3) > div > div > div { box-shadow: none; }
+#chat-container > div > main > div:nth-of-type(2) > div > form > div > div > div:not(:first-of-type) { color: #222; }
+#chat-container > div > main > div:nth-of-type(3) > div > div { background-color: transparent!important; }
+#chat-container > div > main > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > time { background-color: #808080; border: 1px solid #222; border-radius: 8px; color: #222!important; }
+#chat-container > div > main > div[class=''] > div { background-color: #999; }
+#chat-container > div > main > div[class=''] > div > button { background-color: #999; }
