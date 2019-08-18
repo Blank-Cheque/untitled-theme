@@ -686,6 +686,7 @@ body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a { width: 450px; bo
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs a:last-of-type { border-right: none!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-comment-body a, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar a, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter), body .tb-profile-overlay .tb-window-wrapper .tb-link-author, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover { color: #004880!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-detail-ul a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-profile-sidebar .tb-user-modsubs a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-tagline > a:not(.tb-moderator):not(.tb-submitter):hover { color: #004880!important; text-decoration: underline!important; }
+body .tb-comment-author.tb-submitter { color: #FFF!important; border-radius: 3px!important; }
 body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-parent a:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-window-tabs-wrapper .tb-link-title:hover, body .tb-profile-overlay .tb-window-wrapper .tb-link-author:hover, body .tb-profile-overlay .tb-window-wrapper .subreddit.hover:hover { color: #004880!important; }
 body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-link-author[href="/user/[deleted]"], html body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-trophy-info span { color: #222!important; }
 body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-link-author[href="/user/[deleted]"]:hover, html body.mod-toolbox .tb-profile-overlay .tb-window-wrapper .tb-trophy-info a:hover { color: #222!important; text-decoration: none!important; }
@@ -951,10 +952,10 @@ label[for="modtab-threshold"] { color: #222!important; }
 .FancySelect__valueText, .FancySelect__valueIcon { color: #004880!important; }
 .ThreadPreviewViewer__header { background-color: #808080; border-color: #222; }
 .NoThreadMessage * { color: #222; }
-.SidebarCommunity__blankIcon { color: #595959; }
-.SidebarCommunity:hover .SidebarCommunity__blankIcon { color: #999; }
-.SidebarCommunity__name { color: #595959; }
-.SidebarCommunity:hover .SidebarCommunity__name { color: #999; }
+.SidebarCommunity__blankIcon { color: #444; }
+.SidebarCommunity:hover .SidebarCommunity__blankIcon { color: #666; }
+.SidebarCommunity__name, .SidebarCommunity__name.m-selected { color: #222; }
+.SidebarCommunity:hover .SidebarCommunity__name { color: #444; }
 .ThreadListing__threads { background-color: #b3b3b3!important; }
 .ThreadListing__thread  { background-color: #999!important; box-shadow: none; border: 1px solid #222; border-radius: 10px; }
 .ThreadPreview__authors { line-height: normal; }
@@ -1001,7 +1002,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .Thread__modAction { border-color: #222!important; }
 .ModAction__author { color: #282; }
 .ModAction__text { color: #222; }
-.SidebarCommunity:hover .SidebarCommunity__selectedIcon:before { color: #999!important; }
+.SidebarCommunity:hover .SidebarCommunity__selectedIcon:before { color: #444!important; }
 .ThreadListing__thread.m-read .ThreadListing__internalThread { background: none; width: 2%; border-radius: 8px; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
 .ThreadListing__thread:not(.m-read) .ThreadListing__internalThread { background: none; width: 2%; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
 .ThreadListing__thread:not(.m-read) { border-radius: 8px; border: 1px solid #222; border-width: 1px 1px 1px 6px; border-left-color: #22b; }
@@ -1140,6 +1141,9 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 
 .tb-syntax-button-save-wiki { margin-left: 3px; }
 
+#chat-app.active { box-shadow: none; border: 1px solid #222; border-bottom-width: 0px; }
+#chat-container div[role='progressbar'] { box-shadow: none!important; background-color: #999; }
+#chat-container > div > button[type='button'] { background-color: #999; }
 #chat-container, #chat-container > div, #chat-container > div > main { background-color: #b3b3b3!important; }
 #chat-container * { border-color: #222; }
 #chat-container > div > main > div:nth-of-type(2) > div > nav, #chat-container > div > main > div:nth-of-type(1) > div > div:nth-of-type(1) { background-color: #808080; }
@@ -1156,6 +1160,7 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 #chat-container svg { fill: #222; }
 #chat-container > div > main > div:nth-of-type(2) > div > nav > span:nth-of-type(2) > button { background-color: #999; border: 1px solid #222; }
 #chat-container > div > main > div[class='']:nth-of-type(3) > div[class*=' _'] > div[role='button'] { background-color: #999!important; }
+#chat-container > div > main > div[class='']:nth-of-type(3) > div[class*=' _'] > div[role='button']:hover { background-color: #808080!important; }
 #chat-container > div > main > div:nth-of-type(3) > div > div > span { color: #222; }
 #chat-container > div > main > div:nth-of-type(3) > div > div:first-of-type { border-top-left-radius: 5px; border-top-right-radius: 5px; }
 #chat-container > div > main > div:nth-of-type(3) > div > div:last-of-type { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
@@ -1192,6 +1197,21 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 #chat-container > div > main > div[class=''] > div > button { background-color: #999; }
 #chat-container > div > main > div:nth-of-type(2) > div > div > div > span > span { color: #222; }
 #chat-container pre + span { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) { background-color: #b3b3b3; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div h4, #chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div h3 { color: #222; font-size: small; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button { background-color: #808080; color: #222; border: 1px solid #222; border-bottom-width: 2px; box-shadow: none!important; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button:active { border-bottom-width: 1px; transform: translateY(1px); }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > nav { background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > nav > span:nth-of-type(1) > span { color: #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > nav > span:nth-of-type(2) > * { background-color: #999; border-radius: 4px; border: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li:hover { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li:first-of-type { border-top: 1px solid #222; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li > div > div > div { background-color: #999; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li > div > div > div:first-of-type { border-top-left-radius: 3px; border-top-right-radius: 3px; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li > div > div > div:last-of-type { border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li > div > div > div:hover { background-color: #808080; }
+#chat-container > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > ul > li > div > div > div > span { color: #222; }
 
 .quarantine-notice { background-color: #cca300; border: 1px solid #222; border-radius: 8px; }
 .quarantine-notice .btn-quarantine, .quarantine-notice .btn-quarantine:hover, .quarantine-notice .btn-quarantine:active { background-color: #997a00!important; }
