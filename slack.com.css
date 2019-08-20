@@ -96,7 +96,8 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 .p-channel_sidebar__section_heading_label:hover { color: #222; }
 .p-channel_sidebar__section_heading_plus { color: #444; }
 .p-channel_sidebar__section_heading_plus:hover { color: #222; }
-.p-channel_sidebar__banner--unreads { background-color: #808080; box-shadow: none; border: 1px solid #222; left: -1px; width: 100.5%; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; border-top-width: 0px; }
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--top { background-color: #808080; box-shadow: none; border: 1px solid #222; left: -1px; width: 100.5%; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; border-top-width: 0px; }
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--bottom { background-color: #808080; box-shadow: none; border: 1px solid #222; left: -1px; width: 100.5%; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-width: 0px; }
 
 .p-emoji_picker { background-color: #808080!important; border: 1px solid #222; border-radius: 10px!important; }
 .p-emoji_picker__input_container { background-color: #808080; }
