@@ -116,7 +116,7 @@ html body.compose-page a { color: #004880; }
 
 .sitetable .thing .entry p, .sitetable .thing .entry p del, .thing .entry .flat-list.buttons *, .entry, blockquote p, .thing.self .entry.res-selected { color: #222222; }
 blockquote { border-left: 2px solid #595959!important; background-color: inherit!important; color: inherit!important; }
-.thing:not(.approved):not(.spam) > .child > .sitetable > .thing.res-selected, .sitetable > .thing.res-selected { background-color: #999999; }
+.thing:not(.approved):not(.spam) > .child > .sitetable > .thing.res-selected:not(.morechildren), .sitetable > .thing.res-selected:not(.morechildren) { background-color: #999999; }
 .thing.approved > .child > .sitetable > .thing.res-selected, .thing.spam > .child > .sitetable > .thing.res-selected { background-color: transparent!important; border-top: 1px solid #222; border-top-left-radius: 0px!important; }
 body .thing.self .usertext-body .md, body .thing.self.res-selected .usertext-body .md, body .description .usertext .usertext-body .md { background-color: #808080!important; border-color: #222222!important; }
 body .entry.res-selected, .thing .entry.res-selected .usertext-body, .thing .entry.res-selected .md-container { background-color: inherit!important; }
