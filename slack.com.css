@@ -335,7 +335,7 @@ code::selection { background-color: #999; }
 .c-mini_calendar__month_button--is_active { background-color: #808080; border-radius: 0; }
 .c-mini_calendar__month_button:disabled { background-color: #808080!important; color: #444; }
 
-.c-mrkdwn__highlight { background-color: #999; border: 1px solid #222; padding: 1px; }
+.c-mrkdwn__highlight, .c-search__match { background-color: #999; border: 1px solid #222; padding: 1px; }
 
 .c-message__editor__input { background-color: #808080; border: 1px solid #222; }
 
@@ -357,3 +357,5 @@ code::selection { background-color: #999; }
 .c-pillow_file__icon { border: 1px solid #222; }
 
 .p-file_image_thumbnail__wrapper { border: 1px solid #222; }
+
+.c-badge { background-color: #228; color: #FFF; }
