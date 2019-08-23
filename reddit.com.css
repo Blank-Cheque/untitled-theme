@@ -602,7 +602,7 @@ body:not(.res) .titlebox span.subscribers { display: block!important; }
 .wiki-page-content .RESDialogSmall.livePreview { margin-top: 25px; }
 .wiki-page-content .RESDialogSmall.livePreview .gearIcon { bottom: 40px; }
 
-.wiki-page-content a { color: #004880; }
+.md a { color: #004880; }
 
 body.with-listing-chooser .listing-chooser { background-color: #999999; }
 body.with-listing-chooser .listing-chooser .grippy { background-color: #595959; background: #595959; border-color: #222222; }
