@@ -128,7 +128,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 .menu_body li[role="menuitem"]:hover a { background-color: #808080!important; }
 .team_pricing_info a { color: #004880!important; }
 
-.c-message_list__unread_divider__separator { border-color: #222!important; border-width: 1px; }
+.c-message_list__unread_divider__separator { border-color: #222!important; border-width: 1px; opacity: 1!important; }
 .c-message_list__unread_divider__label { color: #222; border: 1px solid #222; background-color: #999; }
 
 .menu { background-color: #999; border: 1px solid #222; box-shadow: none; }
@@ -262,6 +262,7 @@ code::selection { background-color: #999; }
 .p-threads_view { background-color: #b3b3b3; }
 .p-threads_view .c-virtual_list__scroll_container .c-virtual_list__item:nth-of-type(3) .c-message_kit__gutter, .p-threads_view .c-virtual_list__scroll_container .c-virtual_list__item:nth-of-type(3) .c-message_kit__hover { border-radius: 11px 11px 0px 0px; }
 .c-virtual_list__item:last-of-type:hover, .c-virtual_list__item:last-of-type:hover .c-message { background-color: #999; }
+.c-virtual_list__item:last-of-type:hover .c-message_actions__container { display: block; }
 .p_threads_view_load_older_button { border: 1px solid #222; background-color: #b3b3b3; }
 .p_threads_view_load_older_button:hover { background-color: #999; }
 .p-threads_view__footer { border: 1px solid #222; background-color: #b3b3b3; }
@@ -317,8 +318,9 @@ code::selection { background-color: #999; }
 .c-message_attachment__footer_text { color: #444; }
 .c-search_message__replies_count { color: #444; }
 .c-search__expand_ellipsis { color: #444; }
-.c-message_actions__container { border: 1px solid #222; }
+.c-message_actions__container { border: 1px solid #222!important; background-color: #808080; }
 .c-message_actions__container i:before { color: #222; }
+.c-message_actions__container button:hover i:before { color: #444; }
 
 .c-date_picker__dropdown { background-color: #999; border: 1px solid #222; }
 .c-date_picker_calendar__date { border-color: #222; }
@@ -354,7 +356,7 @@ code::selection { background-color: #999; }
 .c-action_buttons__icon:before { color: #444; }
 .c-action_buttons__button:hover .c-action_buttons__icon:before { color: #222; }
 .c-action_buttons__button:focus { background-color: inherit; }
-.c-pillow_file__icon { border: 1px solid #222; }
+.c-pillow_file__icon:not(.c-icon--filetype) { border: 1px solid #222; }
 
 .p-file_image_thumbnail__wrapper { border: 1px solid #222; }
 
