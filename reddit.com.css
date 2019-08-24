@@ -1054,6 +1054,11 @@ label[for="modtab-threshold"] { color: #222!important; }
 .open .section-button:before, .open .section-button:after { background-color: #004880!important; }
 .helpcenter-form .section-content { background-color: #999; border: 1px solid #222; }
 .helpcenter-form .add-username-button { color: #004880; }
+.Header__tooltip { box-shadow: none; background-color: #808080!important; border-color: #222; }
+.Header__tooltip * { color: #222!important; }
+.Header__tooltip .Header__tooltipItem:hover { background-color: #595959!important; }
+.Header__tooltip .Header__tooltip__arrow { border-bottom-color: #808080!important; }
+.Header__tooltip:hover .Header__tooltip__arrow { border-bottom-color: #595959!important; }
 
 .gearIcon::before, .gearIcon::after { color: #004880; text-shadow: #3b5a73 0px 0px 1px; }
 
