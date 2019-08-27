@@ -150,7 +150,7 @@ html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spa
 html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) { background-color: #b3b3b3!important; border-color: #222222!important; }
 html:not(.res-commentBoxes) .comments-page .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) .comment:not(.spam) { background-color: #999999!important; border-color: #222222!important; }
 html:not(.res-commentBoxes) .comments-page .comment .comment { border: solid 1px #222222; border-bottom: none; border-right: none; border-radius: 5px; }
-.entry.res-selected + .action-reason { background-color: #fa8072!important; }
+.entry.tb-comment-spam + .action-reason { background-color: #FF968A!important; }
 
 html:not(.res-commentBoxes) .sitetable.nestedlisting > .comment { border: solid 1px #222222; border-radius: 5px; margin-bottom: 5px; }
 
@@ -421,8 +421,7 @@ a.close { border-radius: 0px 4px 0px 0px; }
 body .tb-window-tabs a { background-color: #808080!important; border-right: 1px solid #222; }
 html body .tb-window-tabs a.active, html body .tb-window-tabs a:hover { background-color: #595959!important; }
 .tb-window-tabs a { border-color: #222222!important; }
-html body .tb-window-tabs a[data-module="gensettings"].active ~ a.about, html body .tb-window-tabs a[data-module="usernotes"].active ~ a.about, html body .tb-window-tabs a[data-module="rreasons"].active ~ a.about, html body .tb-window-tabs a[data-module="profile"].active ~ a.about, html body .tb-window-tabs a[data-module="pnotes"].active ~ a.about, html body .tb-window-tabs a[data-module="notifier"].active ~ a.about, html body .tb-window-tabs a[data-module="newmodmail"].active ~ a.about, html body .tb-window-tabs a[data-module="modbar"].active ~ a.about, html body .tb-window-tabs a[data-module="modbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="hbutton"].active ~ a.about, html body .tb-window-tabs a[data-module="dtagger"].active ~ a.about, html body .tb-window-tabs a[data-module="devtools"].active ~ a.about, html body .tb-window-tabs a[data-module="comments"].active ~ a.about, html body .tb-window-tabs a[data-module="commentnuke"].active ~ a.about, html body .tb-window-tabs a[data-module="bbuttons"].active ~ a.about, html body .tb-window-tabs a[data-module="banlist"].active ~ a.about, html body .tb-window-tabs a[data-module="toolbox"].active ~ a.about, html body .tb-window-tabs a[data-module="trouble"].active ~ a.about { border-bottom: none!important; }
-html body .tb-window-tabs a[data-module="edit_toolbox_config"].active ~ a.ban_macro, html body .tb-window-tabs a[data-module="edit_user_notes"].active ~ a.ban_macro, html body .tb-window-tabs a[data-module="edit_automoderator_config"].active ~ a.ban_macro { border-bottom: 1px solid #222!important; }
+.tb-window-tabs { margin-bottom: 50px; }
 
 .dropdown.lightdrop .selected, .tb-dropdown.lightdrop .selected { color: #222222; }
 
@@ -539,6 +538,9 @@ a.tb-help-toggle { color: #004880!important; }
 
 html .tb-window-content h3, html .tb-window-content p { border-color: #222222!important; }
 html .tb-window-tabs a.about { border-bottom: solid 1px #222222!important; }
+.tb-window-tabs-category { background-color: #808080!important; border-color: #222!important; }
+.tb-window-tabs-header { color: #222!important; border-right: 1px solid #222!important; }
+.backup-warning { cursor: text; }
 
 body .achievements .achievement { border-color: #222222!important; }
 body .achievements .achievement * { color: #222222!important; }
@@ -1021,7 +1023,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .SidebarCommunities__sort input[value="activity"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'activity'; font-size: 13px; }
 .SidebarCommunities__sort input[value="name"]+.FancySelect__label+.FancySelect__value .FancySelect__valueText:after { content: 'name'; font-size: 13px; }
 .ThreadTitle__community:before { content: '/r/'; }
-.FancySelect.NewThread__communitySelect input[value]:not([value='']) + .FancySelect__value .FancySelect__valueText:before, .FancySelect__option:not(:first-of-type):before { content: '/'; }
+.FancySelect.NewThread__communitySelect input[value]:not([value='']) + .FancySelect__value .FancySelect__valueText:before, .NewThread__communitySelect .FancySelect__option:not(:first-of-type):before { content: '/'; }
 .Toaster { box-shadow: none!important; border: 1px solid #222; margin-top: 5px; border-radius: 8px; }
 .Toaster__message { color: #222; border-radius: 0px 7px 7px 0px; background-color: #595959}
 .Toaster__close:before { color: #222; }
