@@ -82,7 +82,7 @@ ts-icon { color: #FFF!important; }
 .client_channels_list_container, .p-channel_sidebar { background-color: #808080!important; }
 .p-classic_nav__team_header { background-color: #808080!important; border-right: 1px solid #222; }
 body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_header:hover { background-color: #595959!important; }
-.p-channel_sidebar__link--unread { border-top: 1px solid #222; }
+.p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--all-threads) { border-top: 1px solid #222; }
 .p-channel_sidebar__link--unread, .p-channel_sidebar__link--all-threads { border-bottom: 1px solid #222; }
 .p-channel_sidebar__link--selected { background-color: #595959; color: #fff!important; }
 .p-channel_sidebar__link:hover { background-color: #595959; color: #FFF; }
