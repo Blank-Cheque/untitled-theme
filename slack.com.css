@@ -138,7 +138,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 
 .panel.active { background-color: #999; }
 
-.p-archives_banner { background-color: #999; border: 1px solid #222; border-bottom-width: 0px; color: #444; font-weight: normal; }
+.p-archives_banner { background-color: #999; border: 1px solid #222; border-bottom-width: 0px; color: #444; font-weight: normal; bottom: 0px; box-shadow: none; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 
 .p-activity_flexpane__top_anchor_hack_item { border-color: #222; }
 .p-activity_flexpane .p-flexpane_header { border-bottom: none; }
