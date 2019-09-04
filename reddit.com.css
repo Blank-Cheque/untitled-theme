@@ -255,10 +255,11 @@ html #header-bottom-left .tabmenu li.selected a { color: #222222; border-top: so
 #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a { font-weight: bold; color: #ff4500!important; }
 #RESShortcutsEditContainer, #RESShortcutsEditContainer *, body.compose-page #RESShortcutsEditContainer, body.compose-page #RESShortcutsEditContainer * { background-color: #cccccc; border-radius: 0px 0px 0px 7px; }
 
-.spacer form input, .searchpane form input { background-color: #595959; border-radius: 10px; color: #222222; }
+.spacer form input[type="text"], .searchpane form input[type="text"] { background-color: #595959; border-radius: 10px; color: #222222; border: 1px solid #222!important}
 #searchexpando { background-color: #999999; border-color: #595959; border-width: 2px; border-radius: 8px; }
 #searchexpando label select { background-color: #808080; border-color: #595959; margin-bottom: 5px; margin-left: 5px; }
 #searchexpando a { color: #004880; }
+#moresearchinfo { border-color: #222; }
 
 #link-desc, #text-desc { background-color: #999999; border-color: #595959; border-width: 2px; border-radius: 8px; }
 .roundfield, .linefield { background-color: #999999!important; border-color: #595959!important; border-width: 2px; border-radius: 8px; }
@@ -1222,3 +1223,9 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 
 .quarantine-notice { background-color: #cca300; border: 1px solid #222; border-radius: 8px; }
 .quarantine-notice .btn-quarantine, .quarantine-notice .btn-quarantine:hover, .quarantine-notice .btn-quarantine:active { background-color: #997a00!important; }
+
+.oauth2-authorize .access { background-color: #999; border-radius: 10px; border: 1px solid #222; }
+.oauth2-authorize .access:after { border-right-color: #222; }
+
+.save.tb-action-button { margin-left: 5px; }
+.BEFoot button { margin-left: 5px; }
