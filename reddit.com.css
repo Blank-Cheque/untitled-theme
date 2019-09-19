@@ -1251,3 +1251,7 @@ body > .content .link .midcol { width: 2.7%; }
 .titlebox h1 a, .titlebox h2 a, .titlebox h3 a { color: #004880; }
 
 .titlebox h1.redditname a { color: #222; }
+
+.mod-toolbox-rd .tb-popup { background-color: transparent; }
+
+.reported-stamp:not(.has-reasons) { cursor: default; }
