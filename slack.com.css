@@ -44,7 +44,8 @@ ts-icon { color: #FFF!important; }
 .c-member_slug:not(.c-member_slug--mention):hover { background-color: inherit; text-decoration: underline; color: #1264a3}
 .p-notification_bar__typing { color: #222; }
 .c-member_slug--mention { background-color: #1264a3; color: #FFF!important; border-radius: 0px; border-radius: 2px; }
-.c-member_slug--mention:hover { background-color: #3294d3}
+.c-member_slug--mention:hover { background-color: #3294d3; }
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover { background-color: #f2c744; }
 .c-message__reply_bar:hover, .c-message__reply_bar:hover .c-message__reply_bar_view_thread { background-color: #808080!important; border-color: #222; }
 .c-message__reply_bar_description * { color: #444; }
 .c-message_attachment__border, .c-mrkdwn__quote:before { background-color: #595959!important; }
@@ -283,8 +284,8 @@ code::selection { background-color: #999; }
 .c-search_autocomplete footer { background-color: #808080; border-top: 1px solid #222; }
 .c-search__input_and_close { border-bottom: 1px solid #222; background-color: #808080; }
 .c-search__input_box { background-color: #808080!important; }
-.c-icon--times { color: #444; }
-.c-icon--times:hover { color: #222; }
+.c-icon--times, .c-multi_pane_modal__back { color: #444!important; }
+.c-icon--times:hover, .c-multi_pane_modal__back:hover { color: #222!important; }
 .c-search__input_box__input { border: 1px solid #222!important; background-color: #808080; }
 .c-search_autocomplete__suggestion_item--selected { background-color: #808080; }
 .ql-placeholder { background-color: inherit!important; border: none!important; }
@@ -364,7 +365,7 @@ code::selection { background-color: #999; }
 .c-badge { background-color: #228; color: #FFF; }
 
 .c-sk-modal_content_section { background-color: #999; border: 1px solid #222; }
-.c-sk-modal_title_bar { background-color: #808080; border: 1px solid #222; border-bottom-width: 0px; }
+.c-sk-modal_header { background-color: #808080; border: 1px solid #222; border-bottom-width: 0px; }
 .c-sk-modal_footer { background-color: #808080; border: 1px solid #222; border-top-width: 0px; }
 .p-edit_profile__photo { border: 1px solid #222; }
 
@@ -392,3 +393,6 @@ code::selection { background-color: #999; }
 .p-channel_sidebar__banner--mentions { background-color: #808080; border: 1px solid #222; border-left-width: 0px; width: 100%; box-shadow: none; left: 0px; right: 0px; }
 .p-channel_sidebar__banner--bottom { border-bottom-width: 0px; }
 .p-channel_sidebar__banner--top { border-top-width: 0px; }
+
+.c-message__tombstone_icon { border: 1px solid #222; }
+.c-message__tombstone_icon i:before { color: #595959}
