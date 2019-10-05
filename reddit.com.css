@@ -69,12 +69,11 @@ ul.content { border-radius: 10px; }
 
 .titlebox { font-size: 12px; }
 
-p code:not(.CodeMirror-line), li code:not(.CodeMirror-line), tr code:not(.CodeMirror-line), h1 code:not(.CodeMirror-line), h2 code:not(.CodeMirror-line), h3 code:not(.CodeMirror-line) { background-color: #282A36!important; color: #DADADA!important; border-radius: 5px; border-color: #FFF; }
-pre:not(.CodeMirror-line) { background-color: #282A36!important; color: #DADADA!important; border-radius: 10px; }
-pre:not(.CodeMirror-line) code { background-color: #282A36!important; color: #DADADA!important; border-radius: 10px; }
+p code:not(.CodeMirror-line), li code:not(.CodeMirror-line), tr code:not(.CodeMirror-line), h1 code:not(.CodeMirror-line), h2 code:not(.CodeMirror-line), h3 code:not(.CodeMirror-line), strong code { background-color: #282A36!important; color: #DADADA!important; border-radius: 5px; border-color: #FFF; }
+pre:not(.CodeMirror-line), pre:not(.CodeMirror-line) code { background-color: #282A36!important; color: #DADADA!important; border-radius: 10px; }
 pre.img-url { color: #DADADA!important; border: solid 1px #FFF; margin-bottom: 8px; }
 pre.img-url::selection { background-color: #999; }
-p code:not(.CodeMirror-line)::selection, li code:not(.CodeMirror-line)::selection, tr code:not(.CodeMirror-line)::selection { background-color: #999; }
+p code:not(.CodeMirror-line)::selection, li code:not(.CodeMirror-line)::selection, tr code:not(.CodeMirror-line)::selection, strong code::selection { background-color: #999; }
 pre code:not(.CodeMirror-line)::selection { background-color: #999; }
 
 .md-spoiler-text:not(.revealed):hover { background-color: #4d4d4d; animation: spoilerexpand 0.5s linear 1 forwards; -moz-animation: spoilerexpand 0.25s linear 1 forwards; }
@@ -252,6 +251,7 @@ html body .drop-choices.lightdrop > form > a > a { border-top: none!important; }
 #header-bottom-left .tabmenu li a { background-color: #808080; padding-left: 7px; padding-right: 7px; }
 html #header-bottom-left .tabmenu li.selected a { color: #222222; border-top: solid 1px #222!important; border-left: solid 1px #222!important; border-right: solid 1px #222!important; border-bottom: none!important; }
 #header-bottom-left .tabmenu * { border-width: 1px 1px 0px 1px; border-radius: 10px 10px 0px 0px; border-color: #222222; }
+div#sr-header-area { position: absolute; }
 #sr-header-area, body.compose-page #sr-header-area { background-color: #b3b3b3; padding-bottom: 2px; }
 #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a { font-weight: bold; color: #ff4500!important; }
 #RESShortcutsEditContainer, #RESShortcutsEditContainer *, body.compose-page #RESShortcutsEditContainer, body.compose-page #RESShortcutsEditContainer * { background-color: #cccccc; border-radius: 0px 0px 0px 7px; }
@@ -307,7 +307,7 @@ body #tb-trouble-buttons .tb-action-button { margin-bottom: 3px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table { line-height: 10px!important; margin-top: 2px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table:active { margin-bottom: 2px!important; }
 
-textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username, #srList input, .helpcenter-form input[type="text"], .query-box, .query-box .query { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
+textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username, #srList input, .helpcenter-form input[type="text"], .query-box, .query-box .query, .reason-content input { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
 .RESCharCounter { color: #222222!important; }
 .submit textarea { border: solid 1px #222222!important; border-color: #222222!important; }
 input[type="number"].ban-duration.tb-input { width: 90px!important; }
@@ -449,10 +449,10 @@ html .tb-popup-tabs { background-color: #808080!important; border-color: #222!im
 .tb-popup-tabs a:not(.active) { background-color: #808080!important; color: #222!important; }
 html .tb-popup-tabs a.active, html .tb-popup-tabs a:not(.active):hover { background-color: #595959!important; color: #222!important; border-color: #222!important; }
 
-html select.other-sub.tb-action-button.inline-button, html div.tb-popup-footer select.mod-action.tb-action-button, html .selector.tb-action-button, .roundfield-content select, .save-selector select, html select.tb-top-macro-select.tb-action-button, html .tb-prune-length, #REScommentNavBox select#commentNavBy, #quickMessage select#quickMessageDialogFrom, .tb-usertext-buttons .tb-macro-select.tb-action-button, .crosspost-fieldset select#sr, .styled-reason.reason-content #contextSelectbox, .pretty-form select, body.mod-toolbox.tb-new-modmail .tb-action-button, .reason #selectbox2 { background-color: #808080!important; border-color: #595959!important; color: #222222!important; }
-html div.tb-popup-footer select.mod-action.tb-action-button option, html .selector.tb-action-button option, html .selector.tb-action-button option, html .selected-list.tb-action-button, html .selected-list.tb-action-button option, html .available-list.tb-action-button, html .available-list.tb-action-button option, .roundfield-content select option, .save-selector select option, html select.tb-top-macro-select.tb-action-button option, html .tb-prune-length option, #REScommentNavBox select#commentNavBy option, #quickMessage select#quickMessageDialogFrom option, .tb-usertext-buttons .tb-macro-select.tb-action-button option, .crosspost-fieldset select#sr option, .styled-reason.reason-content #contextSelectbox option, .pretty-form select option, body.mod-toolbox.tb-new-modmail .tb-action-button option, .reason #selectbox2 option { background-color: #808080!important; border-color: #222222!important; color: #222222!important; }
-html .selector.tb-action-button:hover, html .selected-list.tb-action-button:hover, html .available-list.tb-action-button:hover, html select.tb-top-macro-select.tb-action-button:hover, html .tb-prune-length:hover, #REScommentNavBox select#commentNavBy:hover, #quickMessage select#quickMessageDialogFrom:hover, .tb-usertext-buttons .tb-macro-select.tb-action-button:hover, .crosspost-fieldset select#sr:hover, .styled-reason.reason-content #contextSelectbox:hover, .pretty-form select:hover, body.mod-toolbox.tb-new-modmail .tb-action-button:hover, .reason #selectbox2:hover { background-color: #808080!important; }
-html select.other-sub.tb-action-button.inline-button:active, html div.tb-popup-footer select.mod-action.tb-action-button:active, html .selector.tb-action-button:active, html .selected-list.tb-action-button:active, html .available-list.tb-action-button:active, html select.tb-top-macro-select.tb-action-button:active, html .tb-prune-length:active, #REScommentNavBox select#commentNavBy:active, #quickMessage select#quickMessageDialogFrom:active, .tb-usertext-buttons .tb-macro-select.tb-action-button:active, .crosspost-fieldset select#sr:active, .styled-reason.reason-content #contextSelectbox:active, .pretty-form select:active, body.mod-toolbox.tb-new-modmail .tb-action-button:active, .reason #selectbox2:active { border-color: #222222!important; }
+html select.other-sub.tb-action-button.inline-button, html div.tb-popup-footer select.mod-action.tb-action-button, html .selector.tb-action-button, .roundfield-content select, .save-selector select, html select.tb-top-macro-select.tb-action-button, html .tb-prune-length, #REScommentNavBox select#commentNavBy, #quickMessage select#quickMessageDialogFrom, .tb-usertext-buttons .tb-macro-select.tb-action-button, .crosspost-fieldset select#sr, .styled-reason.reason-content #contextSelectbox, .pretty-form select, body.mod-toolbox.tb-new-modmail .tb-action-button, .reason #selectbox2, .reason-content select { background-color: #808080!important; border-color: #595959!important; color: #222222!important; }
+html div.tb-popup-footer select.mod-action.tb-action-button option, html .selector.tb-action-button option, html .selector.tb-action-button option, html .selected-list.tb-action-button, html .selected-list.tb-action-button option, html .available-list.tb-action-button, html .available-list.tb-action-button option, .roundfield-content select option, .save-selector select option, html select.tb-top-macro-select.tb-action-button option, html .tb-prune-length option, #REScommentNavBox select#commentNavBy option, #quickMessage select#quickMessageDialogFrom option, .tb-usertext-buttons .tb-macro-select.tb-action-button option, .crosspost-fieldset select#sr option, .styled-reason.reason-content #contextSelectbox option, .pretty-form select option, body.mod-toolbox.tb-new-modmail .tb-action-button option, .reason #selectbox2 option, .reason-content select option { background-color: #808080!important; border-color: #222222!important; color: #222222!important; }
+html .selector.tb-action-button:hover, html .selected-list.tb-action-button:hover, html .available-list.tb-action-button:hover, html select.tb-top-macro-select.tb-action-button:hover, html .tb-prune-length:hover, #REScommentNavBox select#commentNavBy:hover, #quickMessage select#quickMessageDialogFrom:hover, .tb-usertext-buttons .tb-macro-select.tb-action-button:hover, .crosspost-fieldset select#sr:hover, .styled-reason.reason-content #contextSelectbox:hover, .pretty-form select:hover, body.mod-toolbox.tb-new-modmail .tb-action-button:hover, .reason #selectbox2:hover, .reason-content select:hover { background-color: #808080!important; }
+html select.other-sub.tb-action-button.inline-button:active, html div.tb-popup-footer select.mod-action.tb-action-button:active, html .selector.tb-action-button:active, html .selected-list.tb-action-button:active, html .available-list.tb-action-button:active, html select.tb-top-macro-select.tb-action-button:active, html .tb-prune-length:active, #REScommentNavBox select#commentNavBy:active, #quickMessage select#quickMessageDialogFrom:active, .tb-usertext-buttons .tb-macro-select.tb-action-button:active, .crosspost-fieldset select#sr:active, .styled-reason.reason-content #contextSelectbox:active, .pretty-form select:active, body.mod-toolbox.tb-new-modmail .tb-action-button:active, .reason #selectbox2:active, .reason-content select:active { border-color: #222222!important; }
 
 .tb-popup .tb-popup-tabs a, .tb-popup-tabs a:hover, .tb-popup-tabs a.active { box-shadow: 0 0!important; }
 
@@ -967,11 +967,13 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ThreadPreview__authors { line-height: normal; }
 .ThreadPreview__author.m-mod, .Message__author.m-mod { color: #FFFFFF!important; font-weight: bold!important; padding: 1px 2px 1px 2px!important; border-radius: 3px!important; background-color: #228822!important; font-size: x-small}
 .ThreadPreview__author.m-mod:hover, .Message__author.m-mod:hover { background-color: #134913!important; text-decoration: none; }
-.Message__author.m-mod { padding-top: 2px!important; padding-bottom: 1px!important; padding-left: 4px!important; padding-right: 4px!important; border-radius: 4px!important; font-size: 10px; }
-.icon-profile-slash { margin-bottom: 2px; }
+.Message__author.m-mod { padding-top: 3px!important; padding-bottom: 2.5px!important; padding-left: 4px!important; padding-right: 4px!important; border-radius: 4px!important; font-size: 10px; }
+.icon-profile-slash { margin-bottom: 0px; }
 .icon-profile-slash:before { font-size: 9px; }
 .Message__author.m-mod~.Message__divider:before { content: '[M]'; margin-right: 5px; margin-left: -5px; font-size: 10px; }
 .Message__author.m-mod~.Message__divider:hover:before { text-decoration: underline; cursor: pointer; }
+.Message__author.m-admin~.Message__divider:before { content: '[A]'; margin-right: 5px; margin-left: -5px; font-size: 10px; }
+.Message__author.m-admin~.Message__divider:hover:before { text-decoration: underline; cursor: pointer; }
 .ThreadPreview__author:before, .Message__author:before { content: '/'}
 .threadPreview__author.m-mod~.ThreadPreview__divider:before { content: '[M]'; margin-right: 5px; margin-left: -5px; font-size: 11px; }
 .threadPreview__author.m-mod~.ThreadPreview__divider:hover:before { text-decoration: underline; cursor: pointer; }
@@ -982,6 +984,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .Thread__messageIsMod { background-color: #228822; }
 .ThreadViewer__threadContainer { background-color: #999; }
 .ThreadViewer__threadContainer .Thread__title, .Thread__message, .ThreadViewer__replyContainer, .Thread__grouped { border-color: #222!important; }
+.InfoBar__shadowBan { background-color: #f0a8a8; border: 1px solid #222; border-radius: 5px; color: #222; }
 .ThreadPreview__authorsExtra { margin-right: 8px; }
 .ThreadPreview__authors:after { color: #222!important; }
 .Thread__grouped { background-color: #808080; }
@@ -1020,7 +1023,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ThreadListing__thread:not(.m-read) .ThreadListing__internalThread { background: none; width: 2%; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
 .ThreadListing__thread:not(.m-read) { border-radius: 8px; border: 1px solid #222; border-width: 1px 1px 1px 6px; border-left-color: #22b; }
 .ThreadPreview__badge { color: #222!important; }
-.ThreadPreview__author.m-admin, .Message__author.m-admin { background-color: #FF0011; color: #FFF; padding: 1px 2px 1px 2px; border-radius: 3px; font-size: x-small; font-weight: bold; }
+.ThreadPreview__author.m-admin, .Message__author.m-admin { background-color: #FF0011; color: #FFF!important; padding: 1px 2px 1px 2px; border-radius: 3px; font-size: x-small; font-weight: bold; }
 .ThreadPreview__author.m-admin:hover, .Message__author.m-admin:hover { background-color: #B3000C; color: #FFF!important; text-decoration: none; }
 .ThreadPreview__author, .Message__author:not(.m-mod):not(.m-admin) { color: #222!important; }
 .ThreadPreview__author, .Message__author:hover:not(.m-mod):not(.m-admin) { color: #222!important; }
@@ -1141,7 +1144,7 @@ body.mod-toolbox-rd .tb-bracket-button:hover { text-decoration: underline; }
 
 .tb-status-approved { color: #222; }
 
-.menuarea.modtools[style*='top: ']:not([style*='top: inherit']) { margin-top: 0.8%!important; }
+.menuarea.modtools[style*='top: ']:not([style*='top: inherit']) { margin-top: -0.2%!important; }
 
 .content { background-color: inherit; border-color: #222; }
 .content p, .content h1, .content h2, .content h3, .content h4 { color: #222; }
@@ -1252,6 +1255,10 @@ body > .content .link .midcol { width: 2.7%; }
 
 .titlebox h1.redditname a { color: #222; }
 
-.mod-toolbox-rd .tb-popup { background-color: transparent; }
+.tb-context-arrow { cursor: default; }
 
-.reported-stamp:not(.has-reasons) { cursor: default; }
+.quarantine #header-img.default-header { background: none; text-indent: 0; font-size: 0px; }
+.quarantine #header-img.default-header:after { content: '⚠️'; font-size: 23px; background-color: #cca300; padding: 4px 6px 13px 6px; border-radius: 15px 15px 0px 0px; border: 1px solid #222; }
+.quarantine #header-img.default-header~.redditname { margin-left: 5px; }
+
+.res-floater-list { margin-top: -22px; }
