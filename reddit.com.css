@@ -251,7 +251,6 @@ html body .drop-choices.lightdrop > form > a > a { border-top: none!important; }
 #header-bottom-left .tabmenu li a { background-color: #808080; padding-left: 7px; padding-right: 7px; }
 html #header-bottom-left .tabmenu li.selected a { color: #222222; border-top: solid 1px #222!important; border-left: solid 1px #222!important; border-right: solid 1px #222!important; border-bottom: none!important; }
 #header-bottom-left .tabmenu * { border-width: 1px 1px 0px 1px; border-radius: 10px 10px 0px 0px; border-color: #222222; }
-div#sr-header-area { position: absolute; }
 #sr-header-area, body.compose-page #sr-header-area { background-color: #b3b3b3; padding-bottom: 2px; }
 #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a { font-weight: bold; color: #ff4500!important; }
 #RESShortcutsEditContainer, #RESShortcutsEditContainer *, body.compose-page #RESShortcutsEditContainer, body.compose-page #RESShortcutsEditContainer * { background-color: #cccccc; border-radius: 0px 0px 0px 7px; }
@@ -307,7 +306,7 @@ body #tb-trouble-buttons .tb-action-button { margin-bottom: 3px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table { line-height: 10px!important; margin-top: 2px!important; }
 html body.mod-toolbox .tb-bracket-button.tb-show-action-table:active { margin-bottom: 2px!important; }
 
-textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username, #srList input, .helpcenter-form input[type="text"], .query-box, .query-box .query, .reason-content input { background-color: #808080!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
+textarea, input#url, input#sr-autocomplete, input#header-title, input#comment_score_hide_mins, input#wiki_edit_age, input#wiki_edit_karma, input#submit_link_label, input#submit_text_label, input#title.text, .c-form-control.text-counter-input, html input.multi-name, input#flair_jump_name, .flaircell input, html input.domain-name, html input#ban-note, html input.ban-duration, html input#flair-text, html input#flair-class, html input#subreddit-message-subject, html input.utagger-user-note, input#modtab-threshold, input#name, .fieldPair input, input#wiki_revision_reason, html input#tb-livefilter-input, html input#tb-new-personal-note, input#subredditsearch, input#contentsearch, .roundfield-content input, #WikiAllowEditor input, .add-sr input.sr-name, input.savedcategory, #quickMessage form[name="quickMessageDialogForm"] input[type="text"], .customizer.texteditable input, .crosspost-fieldset .crosspost-field.crosspost-title, .report-reason-display input.other-reason-text, .reason > .styled-reason > p > input, input.text, #mod-matrix-settings input[type=date], #mod-matrix-settings input[type=number], .roundfield-content input[type=password], .pretty-form input[type="text"], .pretty-form input[type="number"], .NewThread__subject, .NewThread__username, #srList input, .helpcenter-form input[type="text"], .query-box, .query-box .query, .reason-content input { background-color: #888!important; border-radius: 8px; border-color: #222222!important; border-width: 1px; padding: 3px; }
 .RESCharCounter { color: #222222!important; }
 .submit textarea { border: solid 1px #222222!important; border-color: #222222!important; }
 input[type="number"].ban-duration.tb-input { width: 90px!important; }
@@ -804,7 +803,7 @@ body.multi-page .titlebox.multi-details .recs .more { color: #004880; }
 span.author { color: #595959; }
 
 .titlebox .word { display: none; }
- .titlebox .number:after { content: " subscribers"; }
+.titlebox .number:after { content: " subscribers"; }
 .titlebox .users-online span.number:after { content: " users here now"; }
 
 .morecomments .gray { color: #444!important; }
@@ -1017,6 +1016,7 @@ label[for="modtab-threshold"] { color: #222!important; }
 .ThreadTitle__communityIcon:before { display: none; }
 .Thread__modAction { border-color: #222!important; }
 .ModAction__author { color: #282; }
+.ModAction__author:before { content: '/u/'; }
 .ModAction__text { color: #222; }
 .SidebarCommunity:hover .SidebarCommunity__selectedIcon:before { color: #444!important; }
 .ThreadListing__thread.m-read .ThreadListing__internalThread { background: none; width: 2%; border-radius: 8px; border: 1px solid #282; border-width: 0px 0px 0px 6px; }
@@ -1262,3 +1262,12 @@ body > .content .link .midcol { width: 2.7%; }
 .quarantine #header-img.default-header~.redditname { margin-left: 5px; }
 
 .res-floater-list { margin-top: -22px; }
+
+.form-bar { background-color: #808080; border: 1px solid #222; border-radius: 8px; margin-right: 5px; }
+.form-bar-text { color: #222; }
+.form-bar button { margin-left: 5px; }
+
+.sidebox.hohoho .morelink { background: #808080; border: 2px solid #222; border-radius: 8px; }
+.sidebox.hohoho .morelink:hover { border-color: #444; }
+.sidebox.hohoho .morelink a { color: #222; }
+.sidebox.hohoho .morelink:hover a { color: #444; }
