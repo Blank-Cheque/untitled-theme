@@ -444,7 +444,7 @@ body.p-client_desktop--ia-top-nav .c-virtual_list { border-left: 1px solid #222;
 
 .p-classic_nav__model__title__info__topic__content { color: #fff; }
 
-.workspace__primary_view_footer { border-left: 1px solid #222; }
+body.p-client_desktop--ia-top-nav .workspace__primary_view_footer { border-left: 1px solid #222; }
 
 .c-texty_input.c-texty_input--double_decker.focus:after { background-color: #222; display: none; }
 
