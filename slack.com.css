@@ -449,3 +449,5 @@ code::selection { background-color: #999; }
 .workspace__primary_view_footer { border-left: 1px solid #222; }
 
 .c-texty_input.c-texty_input--double_decker.focus:after { background-color: #222; display: none; }
+
+.p-flexpane--iap1 .p-flexpane_header { background-color: #595959; background: #595959; }
