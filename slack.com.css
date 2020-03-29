@@ -438,7 +438,7 @@ code::selection { background-color: #999; }
 
 .p-channel_sidebar__channel_icon_prefix { color: #FFF; opacity: 0.65!important; }
 
-.c-virtual_list { border-left: 1px solid #222; }
+body.p-client_desktop--ia-top-nav .c-virtual_list { border-left: 1px solid #222; }
 
 .p-top_nav__button, .p-ia__view_header__button { color: #222; }
 .p-top_nav__button:hover, .p-ia__view_header__button:hover { background-color: #575757; }
