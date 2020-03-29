@@ -411,7 +411,7 @@ code::selection { background-color: #999; }
 
 .p-client { background-color: #808080; }
 
-.p-top_nav { background-color: #595959; box-shadow: none; max-width: 1700px; left: 220px; border-left: 1px solid #222; }
+.p-top_nav { background-color: #595959; box-shadow: none; max-width: 1660px; left: 260px; border-left: 1px solid #222; }
 
 .p-top_nav__search, .p-top_nav__search:hover { background-color: #808080; border: 1px solid #222; box-shadow: none; }
 .p-top_nav__search:hover { border-color: #444; }
@@ -420,14 +420,10 @@ code::selection { background-color: #999; }
 .p-ia__view_header { background-color: #595959; border-left: 1px solid #222; }
 
 .p-channel_sidebar { background: none; }
-.p-workspace__sidebar { width: 220px; }
 
-.p-workspace__channel_sidebar { height: 110%; }
 .p-ia__sidebar_header { background-color: #808080; box-shadow: none; border-color: #222; }
 .p-ia__sidebar_header:hover { background-color: #595959; }
 .p-ia__sidebar_header__button { border-color: #222!important; }
-
-.p-workspace--iap1.p-workspace--context-pane-collapsed { grid-template-columns: 220px auto; }
 
 .p-channel_sidebar__compose_button { background-color: #808080; box-shadow: none!important; border: 1px solid #222; color: #222; }
 .p-channel_sidebar__compose_button:active { background-color: #808080; }
@@ -436,7 +432,9 @@ code::selection { background-color: #999; }
 
 .p-channel_sidebar__divider { display: none; }
 
-.p-channel_sidebar__channel_icon_prefix { color: #FFF; opacity: 0.65!important; }
+.p-channel_sidebar__channel_icon_prefix { color: #FFF; opacity: 0.3!important; }
+.p-channel_sidebar__channel:hover .p-channel_sidebar__channel_icon_prefix, .p-channel_sidebar__channel--selected .p-channel_sidebar__channel_icon_prefix { opacity: 0.6!important; }
+.p-channel_sidebar__list { background: none; }
 
 body.p-client_desktop--ia-top-nav .c-virtual_list { border-left: 1px solid #222; }
 
@@ -451,3 +449,5 @@ body.p-client_desktop--ia-top-nav .c-virtual_list { border-left: 1px solid #222;
 .c-texty_input.c-texty_input--double_decker.focus:after { background-color: #222; display: none; }
 
 .p-flexpane--iap1 .p-flexpane_header { background-color: #595959; background: #595959; }
+
+.p-global_banner { background-color: #808080; border-bottom: 1px solid #222; border-top: 1px solid #222; overflow: hidden; }
