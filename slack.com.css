@@ -146,14 +146,6 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 .p-activity_flexpane .p-flexpane_header { border-bottom: none; }
 .c-message_kit__footer_spacer:before { color: #222; }
 
-.c-pillow_file_container { border-color: #222!important; }
-.c-pillow_file { background-color: #999; }
-.c-pillow_file__icon:before { color: #004880; }
-.c-pillow_file__icon:after { color: #FFF; background-color: #004880; border-width: 2px; }
-.c-pillow_file__slide { background-color: #999!important; }
-.c-file__action_button { opacity: 1!important; background-color: #999; }
-.c-file__action_button:after { border-color: #222; }
-
 .p-flexpane__body--empty { background-color: #999; }
 
 .c-input_text, .c-texty_input--single_line, .c-multi_select_input, .c-multi_select_input__input { background-color: #808080; border: 1px solid #222; color: #222; }
@@ -242,6 +234,7 @@ body:not(.loading) #team_menu:hover, body:not(.loading) .p-classic_nav__team_hea
 
 code { background-color: #282A36; border: 1px solid #fff; }
 code::selection { background-color: #999; }
+.c-texty_input .ql-editor .ql-code-block, .c-texty_input .ql-editor .ql-code-block:after { background: #282A36; color: #e01e5a; }
 
 .c-texty_input__button_icon { color: #595959; }
 
@@ -422,10 +415,10 @@ code::selection { background-color: #999; }
 .p-channel_sidebar { background: none; }
 
 .p-ia__sidebar_header { background-color: #808080; box-shadow: none; border-color: #222; }
-.p-ia__sidebar_header:hover { background-color: #595959; }
+.p-ia__sidebar_header:hover { background-color: #595959!important; }
 .p-ia__sidebar_header__button { border-color: #222!important; }
 
-.p-channel_sidebar__compose_button { background-color: #808080; box-shadow: none!important; border: 1px solid #222; color: #222; }
+.p-channel_sidebar__compose_button { background-color: #808080; box-shadow: none!important; border: 1px solid #222; color: #222; fill: #222; }
 .p-channel_sidebar__compose_button:active { background-color: #808080; }
 
 .p-channel_sidebar__section_heading { background-color: #808080!important; border-color: #222!important; color: #222!important; }
@@ -436,18 +429,48 @@ code::selection { background-color: #999; }
 .p-channel_sidebar__channel:hover .p-channel_sidebar__channel_icon_prefix, .p-channel_sidebar__channel--selected .p-channel_sidebar__channel_icon_prefix { opacity: 0.6!important; }
 .p-channel_sidebar__list { background: none; }
 
-body.p-client_desktop--ia-top-nav .c-virtual_list { border-left: 1px solid #222; }
-
 .p-top_nav__button, .p-ia__view_header__button { color: #222; }
 .p-top_nav__button:hover, .p-ia__view_header__button:hover { background-color: #575757; }
 .p-top_nav__button:active, .p-ia__view_header__button:active { background-color: #525252}
 
 .p-classic_nav__model__title__info__topic__content { color: #fff; }
 
-body.p-client_desktop--ia-top-nav .workspace__primary_view_footer { border-left: 1px solid #222; }
-
 .c-texty_input.c-texty_input--double_decker.focus:after { background-color: #222; display: none; }
 
 .p-flexpane--iap1 .p-flexpane_header { background-color: #595959; background: #595959; }
 
 .p-global_banner { background-color: #808080; border-bottom: 1px solid #222; border-top: 1px solid #222; overflow: hidden; }
+
+.p-channel_sidebar--iap1.p-channel_sidebar--top_banner_showing .p-channel_sidebar__list:before, .p-channel_sidebar--iap1.p-channel_sidebar--bottom_banner_showing .p-channel_sidebar__list:after { background: none; background-image: none; }
+
+.p-channel_sidebar__list .p-channel_sidebar__banner--unreads { color: #222; left: 130px; border-radius: 50px; border: 1px solid #222; box-shadow: 2px 2px 4px #222; }
+
+.c-pillow_file_container { border-color: #222!important; }
+.c-pillow_file { background-color: #999; }
+.c-pillow_file__icon:before { color: #004880; }
+.c-pillow_file__icon:after { color: #FFF; background-color: #004880; border-width: 2px; }
+.c-pillow_file__slide { background-color: #999!important; }
+.c-file__action_button { opacity: 1!important; background-color: #999; }
+.c-file__action_button:after { border-color: #222; }
+.c-pillow_file__content--collapsed:after { background: linear-gradient(0deg, rgba(60, 60, 60, 0.5), rgba(0, 0, 0, 0.0) 30px);}
+
+.CodeMirror-code { background: #999}
+
+.p-gallery_scroller__wrapper { background-color: #808080!important; border-color: #222!important; }
+
+.p-gallery_scroller__arrow_icon { background-color: #595959; border: 1px solid #222; border-radius: 50%; color: #222; }
+
+.c-message_list__unread_divider__separator { background: #222; }
+.c-message_list__unread_divider__label { border: 1px solid #222!important; }
+
+.p-dm_browser_dialog__contents { background-color: #808080; border-left: 1px solid #222; border-right: 1px solid #222; }
+.p-dm_browser_dialog__footer { background-color: #808080; border-left: 1px solid #222; border-right: 1px solid #222; border-bottom: 1px solid #222; }
+
+.p-composer_page { background-color: #b3b3b3; }
+.p-composer_page__subheader { background-color: #999; border-bottom: 1px solid #222; }
+
+.p-avatar_stack__count { background-color: #808080; border: 1px solid #222; }
+.p-avatar_stack__avatar { box-shadow: 0 0 0 2px #999; margin-right: -3px; }
+.p-avatar_stack__avatar > .c-avatar__image { border: none; border-radius: 4px; }
+
+.c-message_actions__group { background: #222; }
